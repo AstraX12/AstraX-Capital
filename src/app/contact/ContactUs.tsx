@@ -51,7 +51,7 @@ const ContactUs = () => {
             <h1 className="title-font sm:text-xl text-xl mb-6 font-large text-pink-800 text-shadow font-bold">
               CONTACT US
             </h1>
-            <p className="mb-8 leading-relaxed sm:text-4xl text-gray-800 font-bold">
+            <p className="mb-8 leading-relaxed sm:text-4xl text-2xl text-gray-800 font-bold">
               Got any questions? Don't hesitate to get in touch.
             </p>
             {!emailSent ? (
@@ -68,14 +68,14 @@ const ContactUs = () => {
                     type="email"
                     name="user_email"
                     placeholder="Email"
-                    className="w-full px-4 py-2 mb-4 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
+                    className="w-full px-4 py-2 mb-2 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
                     required
                   />
                 </div>
                 <textarea
                   name="message"
                   placeholder="Your Message"
-                  className="w-full px-4 py-2 mb-4 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
+                  className="w-full px-4 pt-3 pb-8  mb-4 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
                   required
                 ></textarea>
                 <button
