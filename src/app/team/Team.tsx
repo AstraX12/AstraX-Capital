@@ -16,34 +16,39 @@ const Team = () => {
 
                 <div className="py-0 px-0 md:px-32">
                     <div className="flex flex-wrap justify-center mt-4">
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0  flex justify-center items-center relative">
+                      <div className="m-2 w-full md:w-1/2 lg:w-80 flex-shrink-0  flex justify-center items-center relative">
                         <img className="object-cover rounded-xl" src="/team/andy.png" width="400" height="350" alt="Truc cool 1" />
-                        <div className="absolute bottom-0 left-0 right-0 md:p-10 p-16 text-gray-700">
-                          
-                          <p className="mb-3 text-sm text-center font-medium">Andy is a CPA and startup investor based in the Philippines. 
-                          He currently serves as the Chief Executive Officer of SparkPoint Technologies Inc. 
-                          Andy is a blockchain enthusiast, speaker, mentor, community leader and consultant of various organizations.</p>
+                        <div className="absolute bottom-0 left-0 right-0 md:p-10 p-1 text-gray-600">
+                          <h1 className="pb-1 text-center text-lg font-bold text-gray-700" >Andy Agnas</h1>
+                          <h2 className="pb-2 text-center text-sm font-medium text-gray-600" >Founding Partner & CEO</h2>
+                          <p className="mb-3 text-xs text-center font-medium">Andy is a Certified Public Accountant (CPA) by profession 
+                          and has been a serial tech entrepreneur since 2017. He is the Founder of SparkPoint Technologies Inc., 
+                          serves as Chief Executive Officer of MetaGaming Guild Ltd. and Astra Interactive Studios Inc. 
+                          Andy is also a blockchain enthusiast, speaker, mentor, and angel investor in several startup WEB3 projects.</p>
                           
                         </div>
                       </div>
                       
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0  flex justify-center items-center  relative">
+                      <div className="m-2 w-full md:w-1/2 lg:w-80 flex-shrink-0  flex justify-center items-center  relative">
                         <img className="object-cover rounded-xl" src="/team/rico.png" width="400" height="350" alt="Truc cool 2" />
-                        <div className="absolute bottom-0 left-0 right-0 md:p-10 p-16 text-gray-700">
-                          <p className="mb-3 text-sm text-center font-medium">Rico is a serial tech entrepreneur and early advisor of SparkPoint. 
-                          He currently serves as SparkPoint Technologies Inc.'s Chief Technology Officer. 
-                          Rico has been in the tech industry for more than 16 years and is one of the pioneers 
-                          in the Philippine tech startup industry.</p>
+                        <div className="absolute bottom-0 left-0 right-0 md:p-14 p-16 text-gray-600">
+                          <h1 className="pb-1 text-center text-lg font-bold text-gray-700" >Rico Zuñiga</h1>
+                          <h2 className="pb-2 text-center text-sm font-medium text-gray-600" >Venture Associate</h2>
+                          <p className="mb-3 text-xs text-center font-medium">Rico is a serial tech entrepreneur and early advisor 
+                          of SparkPoint. He currently serves as SparkPoint Technologies Inc.'s Chief Technology Officer. Rico has 
+                          been in the tech industry for more than 16 years and is one of the pioneers in the Philippine tech startup industry.</p>
                           
                         </div>
                       </div>
                       
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0 flex justify-center items-center relative">
+                      <div className="m-2 w-full md:w-1/2 lg:w-80 flex-shrink-0 flex justify-center items-center relative">
                         <img className="object-cover rounded-xl" src="/team/karan.png" width="400" height="350" alt="Truc cool 3" />
-                        <div className="absolute bottom-0 left-0 right-0 md:p-10 p-16 text-gray-700">
-                          <p className="mb-3 text-sm text-center font-medium">Karan is an experienced advisor and investor in the blockchain industry 
-                          since 2017. An engineer by profession. He has been instrumental in the success of SparkPoint 
-                          through successful partnerships and marketing campaigns.</p>
+                        <div className="absolute bottom-0 left-0 right-0 md:p-16 p-16 text-gray-600">
+                          <h1 className="pb-1 text-center text-lg font-bold text-gray-700" >Karan Sharma</h1>
+                          <h2 className="pb-2 text-center text-sm font-medium text-gray-600" >Venture Analyst</h2>
+                          <p className="mb-3 text-xs text-center font-medium">Karan is an experienced advisor and investor in the 
+                          blockchain industry since 2017. An engineer by profession, he has been instrumental in the success of 
+                          several startup through successful partnerships and marketing campaigns.</p>
                           
                         </div>
                       </div>
