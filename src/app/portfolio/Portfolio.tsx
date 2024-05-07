@@ -42,64 +42,26 @@ const Portfolio = () => {
               height={200} alt="logo"/>
         <Image src="/portfolio_logos/Chibi Clash.png" width={150}
               height={200} alt="logo"/>
-        <Image src="/portfolio_logos/Bowled.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-        <Image src="/portfolio_logos/Ridotto.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-        <Image src="/portfolio_logos/NFT Trade.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-         
-        <Image src="/portfolio_logos/Dark Frontiers.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-        
-        <Image src="/portfolio_logos/Nakamoto Games.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-        
-        <Image src="/portfolio_logos/MetaGaming Guild.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-          
-        <Image src="/portfolio_logos/The Killbox.png"
-              alt="logo"
-              width={150}
-              height={200}
-              
-            />
-         
-        <Image src="/portfolio_logos/Gamerich.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-          
-        <Image src="/portfolio_logos/Infinity Force.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
-          
-        <Image src="/portfolio_logos/Nitro League.png"
-              alt="logo"
-              width={150}
-              height={200}
-            />
+        <Image src="/portfolio_logos/Bowled.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/Ridotto.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/NFT Trade.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/Dark Frontiers.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/Nakamoto Games.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/MetaGaming Guild.png"width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/The Killbox.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/Gamerich.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/Infinity Force.png" width={150}
+              height={200} alt="logo"/>
+        <Image src="/portfolio_logos/Nitro League.png" width={150}
+              height={200} alt="logo"/>
          
      
       </div>
