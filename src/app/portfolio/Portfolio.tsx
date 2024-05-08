@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="min-h-screen flex flex-col items-center justify-center bg-white w-full">
+      className=" flex flex-col  items-center justify-center bg-white w-full">
 
       <div className="flex sm:pl-14 pl-0 sm:pr-18 pr-0 sm:pt-24 pt-16 sm:pb-4 pb-0 items-center text-center flex-col md:flex-row">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

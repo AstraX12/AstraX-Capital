@@ -58,7 +58,7 @@ const Navbar = () => {
      
       
       <div className="md:hidden ml-auto"> 
-        <button className="inline-flex p-4 rounded-md text-black md:text-black hover:text-pink-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" onClick={toggleNavbar}>
+        <button className="inline-flex p-4 rounded-md text-pink-900 md:text-black hover:text-pink-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" onClick={toggleNavbar}>
           {isClick ? (
             <svg className="h-8 w-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
