@@ -7,9 +7,9 @@ const Team = () => {
       id="team"
       className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-white to-orange-200 w-full"
     >
-              <div className="flex sm:pl-14 pl-0 sm:pr-18 pr-0 sm:pt-20 pt-16 sm:pb-20 pb-0 items-center text-center flex-col md:flex-row">
+              <div className="flex sm:pl-0 pl-0 sm:pr-18 pr-0 sm:pt-20 pt-16 sm:pb-20 pb-0 items-center text-center flex-col md:flex-row">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 className="title-font sm:text-4xl text-3xl sm:mb-6 mb-0 font-large text-pink-800 text-shadow font-bold">
+                <h1 className="title-font sm:text-4xl text-3xl sm:mb-0 mb-0 font-large text-pink-800 text-shadow font-bold">
                   MEET THE TEAM </h1>
                 </div>
               </div>
