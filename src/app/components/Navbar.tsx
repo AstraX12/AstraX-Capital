@@ -16,24 +16,25 @@ const Navbar = () => {
   return (
     <nav className="bg-white fixed w-full z-10 top-0 ">
     <div className="max-w-8xl mx-auto px-4">
-    <div className="flex items-center justify-around lg:pb-4 sm:pb-4 pt-4 pb-4 "> 
+    <div className="flex items-center justify-around lg:pb-4 sm:pb-4 pt-4 pb-4 sticky "> 
     <div className="hidden md:block">
         <div className="ml-40 flex justify-center items-center space-x-4">
         </div>
       </div>
-      <div className="flex-shrink-0 mr-50"> 
+      <div className="flex flex-shrink-0 mr-50"> 
         <a href="/" className="text-black" onClick={closeNavbar}>
-          <Image src="/astraXcapital.png" alt="logo" width={50} height={40} objectPosition='relative' />
+          <Image src="/astraXcapital.png" alt="logo" width={50} height={40}  />
         </a>
+        <h1 className="hidden sm:block m-1 px-1 text-3xl text-center font-bold whitespace-nowrap dark:text-gray-700">AstraX Capital</h1>
       </div>
-      <h1 className="text-xl font-bold text-gray-700">AstraX Capital</h1>
+    
       <div className="hidden md:block">
         <div className="ml-72 flex justify-center items-center space-x-4">
         </div>
       </div>
       <div className="hidden md:block">
         <div className="ml-16 mr-26 flex justify-center items-center space-x-4">
-          <a href="#home" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+          <a href="/" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar} aria-current="page">
             Home
           </a>
           <a href="#about_us" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
