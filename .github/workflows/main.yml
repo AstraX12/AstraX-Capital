@@ -25,7 +25,7 @@ jobs:
           npm install
           GENERATE_SOURCEMAP=false
           CI=false
-          npm build
+          npm run build
         env:
           REACT_APP_WALLETCONNECT_PROJECT_ID: ${{ secrets.REACT_APP_WALLETCONNECT_PROJECT_ID }}
           REACT_APP_ALCHEMY_ID: ${{ secrets.REACT_APP_ALCHEMY_ID }}
