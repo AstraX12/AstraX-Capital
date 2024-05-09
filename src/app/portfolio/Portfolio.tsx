@@ -14,11 +14,11 @@ const Portfolio = () => {
           </h1>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-3/4 w-80">
         {/* Images Go Here */}
         <a href="https://sparkpoint.io/" target="_blank" className=""> 
         <Image src="/portfolio_logos/Sparkpoint.png" width={0}
-              height={0} sizes="100vw" alt="Sparkpoint Logo" className="w-full h-auto"/></a>
+              height={0} sizes="150vw" alt="Sparkpoint Logo" className="w-full h-auto"/></a>
 
        <a href="https://sparkswap.xyz/" target="_blank" className="">
         <Image src="/portfolio_logos/Sparkswap.png"  width={0}
@@ -52,23 +52,23 @@ const Portfolio = () => {
           <Image src="/portfolio_logos/Basketballverse.png" width={0}
                 height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-        <a href="https://www.stablecredit.io" className="">
+        <a href="https://www.stablecredit.io" target="_blank" className="">
         <Image src="/portfolio_logos/Resource Finance.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.chronicle.io/" className="">
+      <a href="https://www.chronicle.io/" target="_blank" className="">
         <Image src="/portfolio_logos/Chronicle.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.momoai.io/" className="">
+      <a href="https://www.momoai.io/" target="_blank" className="">
         <Image src="/portfolio_logos/Metaoasis.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://chibi.gg/" className="">
+      <a href="https://chibi.gg/" target="_blank" className="">
         <Image src="/portfolio_logos/Chibi Clash.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
       
-      <a href="https://bowled.io/" className="">
+      <a href="https://bowled.io/" target="_blank" className="">
         <Image src="/portfolio_logos/Bowled.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto" /></a>
 
@@ -76,35 +76,35 @@ const Portfolio = () => {
         <Image src="/portfolio_logos/Ridotto.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://nftrade.com/" className="">
+      <a href="https://nftrade.com/" target="_blank" className="">
         <Image src="/portfolio_logos/NFT Trade.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.darkfrontiers.com/" className="">
+      <a href="https://www.darkfrontiers.com/" target="_blank"  className="">
         <Image src="/portfolio_logos/Dark Frontiers.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.nakamoto.games/" className="">
+      <a href="https://www.nakamoto.games/" target="_blank" className="">
         <Image src="/portfolio_logos/Nakamoto Games.png" width={0}
               height={0}  sizes="100vw"  alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.metagg.com/" className="">
+      <a href="https://www.metagg.com/" target="_blank" className="">
         <Image src="/portfolio_logos/MetaGaming Guild.png"width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href=" https://www.thekillboxgame.com/" className="">
+      <a href=" https://www.thekillboxgame.com/"target="_blank"  className="">
         <Image src="/portfolio_logos/The Killbox.png" width={0}
               height={0}  sizes="100vw"  alt="logo" className="w-full h-auto"/></a>
       
-      <a href="https://www.metafi.org" className="">
+      <a href="https://www.metafi.org" target="_blank" className="">
       <Image src="/portfolio_logos/Gamerich.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://infinityforce.com/" className="">
+      <a href="https://infinityforce.com/" target="_blank" className="">
         <Image src="/portfolio_logos/Infinity Force.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
       
-      <a href="https://www.nitroleague.com/" className="">
+      <a href="https://www.nitroleague.com/" target="_blank" className="">
         <Image src="/portfolio_logos/Nitro League.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
      
