@@ -20,7 +20,7 @@ const Portfolio = () => {
         <Image src="/portfolio_logos/Sparkpoint.png" width={0}
               height={0} sizes="150vw" alt="Sparkpoint Logo" className="w-full h-auto"/></a>
 
-       <a href="https://sparkswap.xyz/" target="_blank" className="">
+       <a href="https://sparkswap.finance/#/" target="_blank" className="">
         <Image src="/portfolio_logos/Sparkswap.png"  width={0}
               height={0}  sizes="100vw" alt="Sparkswap Logo" className="w-full h-auto"/></a>
 
