@@ -22,7 +22,7 @@ const Home = () => {
             <a href="#portfolio" className="">PORTFOLIO</a> 
           </button>
           <button className="ml-2 inline-flex text-pink-800 sm:py-2 py-2 sm:px-6 px-3 border-2 border-pink-800 focus:outline-none hover:bg-pink-200 rounded text-sm items-center">
-          <a href="mailto:a.agnas@astraxcapital.com}">
+          <a href="https://tinyurl.com/astraXcapital" target="_blank">
             GET IN TOUCH</a>
           </button>
           </div>

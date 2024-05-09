@@ -40,7 +40,7 @@ const Feature = ({ src, alt, title, description }: { src: string, alt: string, t
           description="Our consistent success with AstraX Capital is a testament to our iterative, methodical, and result-oriented approach to delivering targets. We prioritize strategic planning, ongoing optimization, and proactive management, fueling the support and guidance that our portfolio companies need to thrive in today's competitive landscape."
         />
       </div>
-      <div className="col-span-2 sm:px-96 px">
+      <div className="col-span-2 pb-16 sm:px-96 px" > 
         <Feature
           src="/expanding horizons embracing diversity icon.png"
           alt="logo"
