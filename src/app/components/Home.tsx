@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center w-full"
+      className="h-screen flex flex-col items-center justify-center w-full" style={{ height: '900px' }}
     >
       <div className="flex sm:pl-16 pl-1 sm:pr-16 pr-1 py-24 mt-6 items-center text-center flex-col md:flex-row bg-gradient-to-br from-blue-200 to-pink-300 border-8 border-white rounded-3xl">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">

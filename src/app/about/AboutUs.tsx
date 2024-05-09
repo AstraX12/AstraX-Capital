@@ -37,41 +37,80 @@ const AboutUs = () => {
       <FeaturesSection />
 
           {/* Hide on mobile */}
-          <div className="hidden md:block min-h-full flex-col items-center justify-center bg-white w-full">
-              <div className="py-0 px-0 md:px-32 mt-10 lg:flex-grow ">
-              <Image src="/what can we offer.png" className="flex-shrink-0" width="1400" height="1350" alt=""/>
-                    <div className="flex flex-wrap justify-center -mt-72">
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0  flex justify-center items-center relative ">
-                        <Image className="object-cover rounded-xl" src="/incubate.png" width="500" height="450" alt="Truc cool 1" z-100 />
-                      </div>
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0  flex justify-center items-center  relative">
-                        <Image className="object-cover rounded-xl" src="/advice.png" width="500" height="450" alt="Truc cool 2" z-100/>
-                      </div>
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0 flex justify-center items-center relative">
-                        <Image className="object-cover rounded-xl" src="/train and educate.png" width="500" height="450" alt="Truc cool 3" z-100/>
-                      </div>
-                    </div>
+          <div className="hidden md:block h-screen" style={{ height: '650px' }}>
+              <div className="flex justify-center items-center pt-12">
+              <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8">
+              
+                  <div className="flex justify-center mb-9 text-center">
+                      <h1 className="title-font text-4xl font-large text-gray-800 text-shadow font-bold">
+                        What can we offer?
+                      </h1>
+                  </div>
+
+                  <div className="flex justify-between" style={{ height: '230px', width:'1200px' }}>
+                  <div className="bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px'  }}>
+                  <h1 className="pb-2 mt-2 text-center text-2xl font-bold text-gray-600">Incubate</h1>
+                  <p className="mx-5 text-center text-lg font-medium">
+                    Are you a visionary entrepreneur with a groundbreaking concept or
+                    idea in the Web3 space? Our program is designed to help you bridge 
+                    the gap between idea and execution, turning your vision into a reality.</p>
+                  </div>
+                  <div className="bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px' }}>
+                  <h1 className="pb-2 text-center text-2xl font-bold text-gray-600">Advice</h1>
+                  <p className=" mx-5 text-center text-lg font-medium">
+                    We provide a comprehensive advisory services, ensuring support throughout 
+                    our partnership. Whether you need strategic guidance, market insights, 
+                    or operational support, our team of experienced advisors is here to help 
+                    you navigate the complexities of the cryptocurrency landscape and make 
+                    informed decisions that drive results.</p>
+                  </div>
+                  <div className="bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '460px', width: '340px'  }}>
+                  <h1 className="pb-2 text-center text-2xl font-bold text-gray-600">Train and Educate</h1>
+                  <p className=" mx-5 text-center text-lg font-medium">
+                    At AstraX Capital, we’re committed to empowering entrepreneurs, investors, 
+                    and enthusiasts with the knowledge and skills they need to succeed in the market. 
+                    Whether you're new to Web3 space or a seasoned veteran, our educational resources 
+                    and training programs are designed to equip you with the tools and insights to 
+                    navigate the complexities of the digital asset landscape with confidence.</p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+        
+       
 
             {/* Hide on desktop */}
-              <div className="block md:hidden flex-col items-center justify-center bg-gradient-to-br from-blue-100 to-pink-300 w-full">
-              <div className="py-0 px-0 md:px-32 mt-0">
-                <h1 className="pl-20 pt-12 title-font sm:text-xl text-2xl sm:mb-2 mb-3 font-large text-gray-700 text-shadow sm:font-bold font-black items-center">
-                What can we offer?
-                </h1>
-                    <div className="flex flex-wrap justify-center mt-0">
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0  flex justify-center items-center relative ">
-                        <Image className="object-cover rounded-xl" src="/incubate.png" width="500" height="450" alt="Truc cool 1" z-100 />
-                      </div>
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0  flex justify-center items-center  relative">
-                        <Image className="object-cover rounded-xl" src="/advice.png" width="500" height="450" alt="Truc cool 2" z-100/>
-                      </div>
-                      <div className="m-2 w-full md:w-1/2 lg:w-1/4 flex-shrink-0 flex justify-center items-center relative">
-                        <Image className="object-cover rounded-xl" src="/train and educate.png" width="500" height="450" alt="Truc cool 3" z-100/>
-                      </div>
+              <div className="block md:hidden ">
+              <div className="flex justify-center items-center">
+                <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8">
+                  <div className="flex justify-center mb-9 text-center">
+                      <h1 className="pt-12 title-font text-2xl font-large text-gray-800 text-shadow font-bold">
+                        What can we offer?
+                      </h1>
+                  </div>
+                  <div className="flex flex-col md:flex-row md:justify-between">
+                    <div className="bg-white rounded-lg p-4 m-2 md:w-1/3">
+                      <h1 className="pb-2 text-center text-lg font-bold text-gray-600">Incubate</h1>
+                      <p className="mb-3 mx-5 text-center text-sm font-medium">
+                        Are you a visionary entrepreneur with a groundbreaking concept or idea in the Web3 space? Our program is designed to help you bridge the gap between idea and execution, turning your vision into a reality.
+                      </p>
                     </div>
+                    <div className="bg-white rounded-lg p-4 m-2 md:w-1/3">
+                      <h1 className="pb-2 text-center text-lg font-bold text-gray-600">Advice</h1>
+                      <p className="mb-3 mx-5 text-center text-sm font-medium">
+                        We provide comprehensive advisory services, ensuring support throughout our partnership. Whether you need strategic guidance, market insights, or operational support, our team of experienced advisors is here to help you navigate the complexities of the cryptocurrency landscape and make informed decisions that drive results.
+                      </p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 m-2 md:w-1/3">
+                      <h1 className="pb-2 text-center text-lg font-bold text-gray-600">Train and Educate</h1>
+                      <p className="mb-3 mx-5 text-center text-sm font-medium">
+                        At AstraX Capital, we’re committed to empowering entrepreneurs, investors, and enthusiasts with the knowledge and skills they need to succeed in the market. Whether you're new to the Web3 space or a seasoned veteran, our educational resources and training programs are designed to equip you with the tools and insights to navigate the complexities of the digital asset landscape with confidence.
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
 
     </section>
