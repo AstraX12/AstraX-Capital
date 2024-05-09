@@ -10,7 +10,7 @@ const Home = () => {
       <div className="flex sm:pl-16 pl-1 sm:pr-16 pr-1 py-24 mt-6 items-center text-center flex-col md:flex-row bg-gradient-to-br from-blue-200 to-pink-300 border-8 border-white rounded-3xl">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           
-          <h1 className="title-font sm:text-6xl text-3xl mb-6 font-large text-gray-800 text-shadow text-bold">
+          <h1 className="title-font sm:text-6xl text-3xl mb-6 font-large text-gray-800 text-shadow font-bold">
             AstraX Capital
           </h1>
           <p className="mb-8 leading-relaxed sm:text-2xl text-gray-800 ">
