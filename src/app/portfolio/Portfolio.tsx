@@ -72,7 +72,7 @@ const Portfolio = () => {
         <Image src="/portfolio_logos/Bowled.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto" /></a>
 
-      <a href="https://ridotto.io/" className="">
+      <a href="https://ridotto.io/" target="_blank" className="">
         <Image src="/portfolio_logos/Ridotto.png" width={0}
               height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
