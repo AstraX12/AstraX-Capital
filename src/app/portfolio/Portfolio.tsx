@@ -18,41 +18,43 @@ const Portfolio = () => {
         {/* Images Go Here */}
         <a href="https://sparkpoint.io/" target="_blank" className=""> 
         <Image src="/portfolio_logos/Sparkpoint.png" width={0}
-              height={0} sizes="100vw" alt="Sparkpoint Logo" className="w-full h-auto"/>
-        </a>
+              height={0} sizes="100vw" alt="Sparkpoint Logo" className="w-full h-auto"/></a>
+
        <a href="https://sparkswap.xyz/" target="_blank" className="">
         <Image src="/portfolio_logos/Sparkswap.png"  width={0}
               height={0}  sizes="100vw" alt="Sparkswap Logo" className="w-full h-auto"/></a>
 
-      <a href="https://prev.ownly.io/" target="_blank" className="">
-        <Image src="/portfolio_logos/Ownly.png"  width={0}
-              height={0}  sizes="100vw" alt="Ownly Logo" className="w-full h-auto" /></a>
+        <a href="https://prev.ownly.io/" target="_blank" className="">
+          <Image src="/portfolio_logos/Ownly.png"  width={0}
+                height={0}  sizes="100vw" alt="Ownly Logo" className="w-full h-auto" /></a>
+        
+        <a href="https://spores.app/" target="_blank" className="">
+          <Image src="/portfolio_logos/Spores.png"  width={0}
+                height={0}  sizes="100vw" alt="Spores Logo" className="w-full h-auto"/></a>
+        
+        <a href="https://www.eof.gg/" target="_blank" className="">
+          <Image src="/portfolio_logos/EOF.png"  width={0}
+                height={0}  sizes="100vw"  alt="EOF Logo" className="w-full h-auto"/></a>
 
-        <Image src="/portfolio_logos/Spores.png"  width={0}
-              height={0}  sizes="100vw" alt="Spores Logo" className="w-full h-auto"/>
-      
-      <a href="https://www.eof.gg/" target="_blank" className="">
-        <Image src="/portfolio_logos/EOF.png"  width={0}
-              height={0}  sizes="100vw"  alt="EOF Logo" className="w-full h-auto"/></a>
+        <a href="https://www.projectseed.com/" target="_blank" className="">
+          <Image src="/portfolio_logos/Project Seed.png"  width={0}
+                height={0}  sizes="100vw"  alt="Project Seed Logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.projectseed.com/" target="_blank" className="">
-        <Image src="/portfolio_logos/Project Seed.png"  width={0}
-              height={0}  sizes="100vw"  alt="Project Seed Logo" className="w-full h-auto"/></a>
+        <a href="https://nyanheroes.com/" target="_blank" className="">
+          <Image src="/portfolio_logos/Nyan Heroes.png"  width={0}
+                height={0}  sizes="100vw"  alt="Nyan Heroes Logo" className="w-full h-auto"/></a>
 
-      <a href="https://nyanheroes.com/" target="_blank" className="">
-        <Image src="/portfolio_logos/Nyan Heroes.png"  width={0}
-              height={0}  sizes="100vw"  alt="Nyan Heroes Logo" className="w-full h-auto"/></a>
+        <a href="https://www.chainport.io/" target="_blank" className="">
+          <Image src="/portfolio_logos/ChainPort.png"  width={0}
+                height={0}   sizes="100vw" alt="ChainPort Logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.chainport.io/" target="_blank" className="">
-        <Image src="/portfolio_logos/ChainPort.png"  width={0}
-              height={0}   sizes="100vw" alt="ChainPort Logo" className="w-full h-auto"/></a>
+        <a href="https://www.basketballverse.gg/" target="_blank" className="">
+          <Image src="/portfolio_logos/Basketballverse.png" width={0}
+                height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
-      <a href="https://www.basketballverse.gg/" target="_blank" className="">
-        <Image src="/portfolio_logos/Basketballverse.png" width={0}
-              height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
-
+        <a href="https://www.stablecredit.io" className="">
         <Image src="/portfolio_logos/Resource Finance.png" width={0}
-              height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/>
+              height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
       <a href="https://www.chronicle.io/" className="">
         <Image src="/portfolio_logos/Chronicle.png" width={0}
@@ -94,8 +96,9 @@ const Portfolio = () => {
         <Image src="/portfolio_logos/The Killbox.png" width={0}
               height={0}  sizes="100vw"  alt="logo" className="w-full h-auto"/></a>
       
-        <Image src="/portfolio_logos/Gamerich.png" width={0}
-              height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/>
+      <a href="https://www.metafi.org" className="">
+      <Image src="/portfolio_logos/Gamerich.png" width={0}
+              height={0}   sizes="100vw" alt="logo" className="w-full h-auto"/></a>
 
       <a href="https://infinityforce.com/" className="">
         <Image src="/portfolio_logos/Infinity Force.png" width={0}

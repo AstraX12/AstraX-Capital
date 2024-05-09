@@ -48,7 +48,7 @@ const ContactUs = () => {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 sm:pt-0 pt-12 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-            <h1 className="title-font sm:text-xl text-xl mb-6 font-large text-pink-800 text-shadow font-bold">
+            <h1 className="title-font sm:text-2xl text-xl mb-6 font-large text-pink-800 text-shadow font-bold">
               CONTACT US
             </h1>
             <p className="mb-8 leading-relaxed sm:text-4xl text-2xl text-gray-800 font-bold">

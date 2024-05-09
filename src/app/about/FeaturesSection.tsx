@@ -13,7 +13,7 @@ const Feature = ({ src, alt, title, description }: { src: string, alt: string, t
     </div>
   );
   const FeaturesSection = () => (
-    <div className="sm:pr-0 pr-9 sm:pl-0 pl-9 flex flex-col bg-gradient-to-b from-white to-orange-200 w-full">
+    <div className="sm:pt-20 sm:pr-0 pr-9 sm:pl-0 pl-9 flex flex-col bg-gradient-to-b from-white to-orange-200 w-full">
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-0 gap-y-0 items-start">
         <Feature
           src="/early stage innovation icon.png"
