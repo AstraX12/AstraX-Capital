@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 export const metadata: Metadata = {
   title: "AstraX Capital",
   description: "AstraX Capital ",
@@ -26,3 +27,4 @@ export default function RootLayout({
     </html>
   );
 }
+

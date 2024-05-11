@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Feature = ({ src, alt, title, description }: { src: string, alt: string, title: string, description: string }) => (
     <div className="flex sm:pl-0 pl-0 sm:pr-0 pr-0 sm:py-12 py-0 md:items-start items-center text-center justify-center flex-col md:flex-row">
       <div className="md:flex-shrink-0 md:mr-8 mb-2">
-        <Image src={src} alt={alt} width={100} height={200} objectPosition="relative" />
+        <Image src={src} alt={alt} width={100} height={200} />
       </div>
       <div className="md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0  text-center">
         <h1 className="title-font sm:text-2xl text-based sm:mb-2 mb-3 font-large text-gray-800 text-shadow sm:font-bold font-black">{title}</h1>
