@@ -128,21 +128,18 @@ const Portfolio = () => {
             We invest in and operate validator nodes to bolster the long-term growth of highly promising projects.</p>
           </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center sm:w-2/3 w-80">
-          <a href="" target="_blank" className=""> 
+          {/* <a href="" target="_blank" className="">  */}
           <Image src="/portfolio_logos/XAI.png" width={0}
-                height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/></a>
+                height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/>
 
-          <a href="" target="_blank" className="">
           <Image src="/portfolio_logos/Hychain.png"  width={0}
-                height={0}  sizes="100vw" alt="Hychain Logo" className="w-full h-auto"/></a>
+                height={0}  sizes="100vw" alt="Hychain Logo" className="w-full h-auto"/>
 
-          <a href="" target="_blank" className="">
             <Image src="/portfolio_logos/Powerloom.png"  width={0}
-                  height={0}  sizes="100vw" alt="POwerloom Logo" className="w-full h-auto" /></a>
+                  height={0}  sizes="100vw" alt="POwerloom Logo" className="w-full h-auto"/>
           
-          <a href="" target="_blank" className="">
             <Image src="/portfolio_logos/Sophon.png"  width={0}
-                  height={0}  sizes="100vw" alt="Sophon Logo" className="w-full h-auto"/></a>
+                  height={0}  sizes="100vw" alt="Sophon Logo" className="w-full h-auto"/>
           </div>
       
     </section>
