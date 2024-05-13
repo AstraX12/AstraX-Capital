@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/AstraX-Capital"
+  basePath: "/AstraX-Capital",
   output: "export",
   reactStrictMode: true,
 };
