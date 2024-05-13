@@ -79,7 +79,7 @@ const Team = () => {
                   <div className="flex flex-col md:flex-row md:justify-between">
                     
                     <div className="relative bg-white rounded-lg p-4 m-2 md:w-1/3">
-                      <div className="relative left-16 right-16 z-15">
+                      <div className="relative flex justify-center items-center z-15">
                           <Image
                               src="/team/andy.png"
                               alt="andy"
@@ -87,7 +87,6 @@ const Team = () => {
                               height={140}
                           />
                       </div>
-                     
                       <h1 className="pb-0 text-center lg:text-xl md:text-lg text-xl font-bold text-gray-700">Andy Agnas</h1>
                       <h2 className="pb-1 text-center lg:text-lg md:text-sm text-lg font-medium text-gray-600">Founding Partner & CEO</h2>
                       <p className="sm:mb-10 mb-0 mx-6 text-center leading-none lg:text-sm md:text-xs text-based font-medium text-gray-700">
@@ -99,7 +98,7 @@ const Team = () => {
                      
                     </div>
                     <div className="relative bg-white rounded-lg p-4 m-2 md:w-1/3">
-                    <div className="relative left-16 right-16 z-15">
+                    <div className="relative flex justify-center items-center z-15">
                           <Image
                               src="/team/rico.png"
                               alt="rico"
@@ -117,7 +116,7 @@ const Team = () => {
 
                     </div>
                     <div className="relative bg-white rounded-lg p-4 m-2 md:w-1/3">
-                    <div className="relative left-16 right-16 z-15">
+                    <div className="relative flex justify-center items-center z-15">
                           <Image
                               src="/team/karan.png"
                               alt="karan"
