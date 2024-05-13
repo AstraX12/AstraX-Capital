@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
 
 const Privacy = () => {
   return (
+    
     <section
       id="privacy-policy"
       className="h-screen flex flex-col items-center justify-center w-full" style={{ height: '830px' }}>
