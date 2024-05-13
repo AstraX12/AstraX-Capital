@@ -103,7 +103,7 @@ const ContactUs = () => {
                  DISCLAIMER
           </h1>
           <div className="container sm:px-40 px-8 py-8 mx-auto">
-          <p className=" sm:px-40 px-3 pb-5 leading-relaxed sm:text-based text-sm text-gray-500 font-medium mb-5">
+          <p className=" sm:px-40 px-3 pb-5 leading-relaxed sm:text-xl text-sm text-gray-500 font-medium mb-5">
           AstraX Capital  is not seeking any outside investors. If you represent a project and are interested in discussing 
           a potential investment with our team, please feel free to reach out.</p></div>
       </div>

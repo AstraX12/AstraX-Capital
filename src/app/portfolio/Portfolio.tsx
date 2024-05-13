@@ -15,17 +15,34 @@ const Portfolio = () => {
         </div>
     
         <div className="flex flex-col sm:pt-16 pt-0 sm:pb-2 pb-0 text-center ">
-          <h1 className="sm:text-xl text-based sm:mb-0 mb-0 font-large text-pink-900 text-shadow font-bold">
+          <h1 className="sm:text-2xl text-based sm:mb-5 mb-0 font-large text-pink-900 text-shadow font-bold">
                   Businesses we've backed.
           </h1>
-          <p className="sm:px-3 px-3 pb-5 leading-none sm:text-lg text-sm text-gray-500 font-medium mb-5">
+          <p className="sm:px-3 px-3 pb-5 leading-none sm:text-xl text-sm text-gray-500 font-medium mb-5">
             We invest in exceptional entrepreneurs who are crafting 
           innovative solutions for emerging Web3 economy.</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-3/4 w-80">
           {/* Images Go Here */}
-          <a href="https://sparkpoint.io/" target="_blank" className=""> 
+
+        <a href="https://www.zoth.io" target="_blank" className=""> 
+          <Image src="/portfolio_logos/Zoth.png" width={0}
+                height={0} sizes="150vw" alt="Zoth Logo" className="w-full h-auto"/></a>
+
+        <a href="https://codyfight.com" target="_blank" className=""> 
+          <Image src="/portfolio_logos/Cody Fight.png" width={0}
+                height={0} sizes="150vw" alt="Cody Fight Logo" className="w-full h-auto"/></a>
+
+        <a href="https://playwildforest.io" target="_blank" className=""> 
+          <Image src="/portfolio_logos/Wild Forest.png" width={0}
+                height={0} sizes="150vw" alt="Wild Forest Logo" className="w-full h-auto"/></a>
+
+        <a href="https://www.outlanders.com" target="_blank" className=""> 
+          <Image src="/portfolio_logos/outlanders.png" width={0}
+                height={0} sizes="150vw" alt="Outlanders Logo" className="w-full h-auto"/></a>
+
+        <a href="https://sparkpoint.io/" target="_blank" className=""> 
           <Image src="/portfolio_logos/Sparkpoint.png" width={0}
                 height={0} sizes="150vw" alt="Sparkpoint Logo" className="w-full h-auto"/></a>
 
@@ -121,25 +138,28 @@ const Portfolio = () => {
         
         
           <div className="flex flex-col sm:pt-40 pt-5 sm:pb-2 pb-0 text-center ">
-            <h1 className="sm:text-xl text-based sm:mb-0 mb-0 font-large text-pink-900 text-shadow font-bold">
+            <h1 className="sm:text-2xl text-based sm:mb-5 mb-0 font-large text-pink-900 text-shadow font-bold">
               Nodes we’ve invested 
             </h1>
-            <p className="sm:px-3 px-3 pb-8 leading-none sm:text-lg text-sm text-gray-500 font-medium mb-5">
+            <p className="sm:px-3 px-3 pb-8 leading-none sm:text-xl text-sm text-gray-500 font-medium mb-5">
             We invest in and operate validator nodes to bolster the long-term growth of highly promising projects.</p>
           </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center sm:w-2/3 w-80">
-          {/* <a href="" target="_blank" className="">  */}
-          <Image src="/portfolio_logos/XAI.png" width={0}
-                height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/>
+         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center sm:w-2/3 w-80 mb-7">
+          <a href="https://xai.games/" target="_blank" className="">  
+            <Image src="/portfolio_logos/XAI.png" width={0}
+                height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/></a>
 
-          <Image src="/portfolio_logos/Hychain.png"  width={0}
-                height={0}  sizes="100vw" alt="Hychain Logo" className="w-full h-auto"/>
+          <a href="https://www.hychain.com/" target="_blank" className=""> 
+            <Image src="/portfolio_logos/Hychain.png"  width={0}
+                height={0}  sizes="100vw" alt="Hychain Logo" className="w-full h-auto"/></a>
 
+          <a href="https://powerloom.io/" target="_blank" className=""> 
             <Image src="/portfolio_logos/Powerloom.png"  width={0}
-                  height={0}  sizes="100vw" alt="POwerloom Logo" className="w-full h-auto"/>
-          
+                  height={0}  sizes="100vw" alt="POwerloom Logo" className="w-full h-auto"/></a>
+
+          <a href="https://sophon.xyz/" target="_blank" className="">         
             <Image src="/portfolio_logos/Sophon.png"  width={0}
-                  height={0}  sizes="100vw" alt="Sophon Logo" className="w-full h-auto"/>
+                  height={0}  sizes="100vw" alt="Sophon Logo" className="w-full h-auto"/></a>
           </div>
       
     </section>
