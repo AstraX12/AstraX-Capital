@@ -37,7 +37,7 @@ const AboutUs = () => {
       <FeaturesSection />
 
           {/* Hide on mobile */}
-          <div className="hidden md:block h-screen" style={{ height: '650px' }}>
+          <div className="hidden below-1024:hidden md:block h-screen" style={{ height: '650px' }}>
               <div className="flex justify-center items-center pt-12">
               <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8">
               
@@ -78,9 +78,51 @@ const AboutUs = () => {
             </div>
           </div>
         
-       
+             {/* Tablet view */}
+             <div className="hidden md:flex md:flex-col min-h-screen">
+              <div className="flex justify-center items-center pt-12">
+                <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8 w-full md:max-w-5xl">
+                  <div className="flex justify-center mb-9 text-center">
+                    <h1 className="title-font text-4xl font-large text-gray-800 text-shadow font-bold">
+                      What can we offer?
+                    </h1>
+                  </div>
+                  <div className="flex flex-col md:flex-row justify-between">
+                    <div className="bg-white rounded-lg p-4 m-2 shadow-lg flex-1 md:max-w-sm">
+                      <h1 className="pb-2 mt-2 text-center text-2xl font-bold text-gray-600">Incubate</h1>
+                      <p className="mx-5 text-center text-lg font-medium">
+                        Are you a visionary entrepreneur with a groundbreaking concept or
+                        idea in the Web3 space? Our program is designed to help you bridge
+                        the gap between idea and execution, turning your vision into a reality.
+                      </p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 m-2 shadow-lg flex-1 md:max-w-sm">
+                      <h1 className="pb-2 text-center text-2xl font-bold text-gray-600">Advice</h1>
+                      <p className="mx-5 text-center text-lg font-medium">
+                        We provide comprehensive advisory services, ensuring support throughout
+                        our partnership. Whether you need strategic guidance, market insights,
+                        or operational support, our team of experienced advisors is here to help
+                        you navigate the complexities of the cryptocurrency landscape and make
+                        informed decisions that drive results.
+                      </p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 m-2 shadow-lg flex-1 md:max-w-sm">
+                      <h1 className="pb-2 text-center text-2xl font-bold text-gray-600">Train and Educate</h1>
+                      <p className="mx-5 text-center text-lg font-medium">
+                        At AstraX Capital, we’re committed to empowering entrepreneurs, investors,
+                        and enthusiasts with the knowledge and skills they need to succeed in the market.
+                        Whether you're new to the Web3 space or a seasoned veteran, our educational resources
+                        and training programs are designed to equip you with the tools and insights to
+                        navigate the complexities of the digital asset landscape with confidence.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            {/* Hide on desktop */}
+
+            {/* Mobile view */}
               <div className="block md:hidden ">
               <div className="flex justify-center items-center">
                 <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8">
