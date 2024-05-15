@@ -90,10 +90,14 @@ const Footer = () => {
                 </a>
               </div> */}
               </div>
-              <p className="lg:w-full text-based text-gray-500 w-full justify-center md:justify-start md:w-auto"> 
-                Copyright © 2024 All rights reserved
-              </p>
+              
             </div>
+            <div className="w-full flex justify-center md:justify-center lg:justify-center">
+            <p className="text-base text-gray-500">
+              Copyright © 2024 All rights reserved
+            </p>
+          </div>
+
           </div>
         </div>
        
