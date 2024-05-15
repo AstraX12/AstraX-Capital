@@ -38,7 +38,7 @@ const ContactUs = () => {
         className="min-h-screen flex flex-col items-center justify-center w-full"
       >
         <div className="flex pl-16 pr-16 py-24 mt-6 items-center text-center flex-col md:flex-row bg-white">
-          <div className="lg:max-w-lg lg:w-full md:w-full w-5/6 ">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
             <Image
               src="/Contact Us Graphic.png"
               alt="logo"
