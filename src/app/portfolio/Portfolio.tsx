@@ -42,6 +42,10 @@ const Portfolio = () => {
           <Image src="/portfolio_logos/outlanders.png" width={0}
                 height={0} sizes="150vw" alt="Outlanders Logo" className="w-full h-auto"/></a>
 
+        <a href="https://elfinmetaverse.com" target="_blank" className=""> 
+          <Image src="/portfolio_logos/Elfin Metaverse.png" width={0}
+                height={0} sizes="150vw" alt="Elfin Metaverse Logo" className="w-full h-auto"/></a>
+
         <a href="https://sparkpoint.io/" target="_blank" className=""> 
           <Image src="/portfolio_logos/Sparkpoint.png" width={0}
                 height={0} sizes="150vw" alt="Sparkpoint Logo" className="w-full h-auto"/></a>
