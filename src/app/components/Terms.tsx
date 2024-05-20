@@ -10,124 +10,61 @@ const Terms = () => {
         <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Terms and Condition</h1>
 
+        <h2 className="text-2xl font-bold mb-2">1. Terms</h2>
         <p className="mb-4">
-            This privacy policy sets out how our website uses and protects any information that you give us when you use
-            this
-            website.
+            By accessing the website at https://astraxcapital.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
         </p>
 
-        <h2 className="text-2xl font-bold mb-2">Information We Collect</h2>
-
+        <h2 className="text-2xl font-bold mb-2">2. Use License</h2>
         <p className="mb-4">
-            We may collect the following information:
-        </p>
-
-        <ul className="list-disc list-inside mb-4">
-            <li>Your name and contact information</li>
-            <li>Demographic information</li>
-            <li>Other information relevant to customer surveys and/or offers</li>
-        </ul>
-
-        <h2 className="text-2xl font-bold mb-2">How We Use the Information</h2>
-
-        <p className="mb-4">
-            We require this information to understand your needs and provide you with a better service, and in
-            particular
-            for
-            the following reasons:
+        a. Permission is granted to temporarily download one copy of the materials (information or software) on SparkPoint Network's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
         </p>
 
         <ul className="list-disc list-inside mb-4">
-            <li>Internal record keeping</li>
-            <li>Improving our products and services</li>
-            <li>Sending promotional emails about new products, special offers, or other information which we think you
-                may
-                find
-                interesting</li>
-            <li>From time to time, we may also use your information to contact you for market research purposes. We may
-                contact
-                you by email, phone, or mail. We may use the information to customize the website according to your
-                interests.</li>
-        </ul>
-
-        <h2 className="text-2xl font-bold mb-2">Security</h2>
-
-        <p className="mb-4">
-            We are committed to ensuring that your information is secure. In order to prevent unauthorized access or
-            disclosure,
-            we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the
-            information we collect online.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-2">Cookies</h2>
-
-        <p className="mb-4">
-            A cookie is a small file that asks permission to be placed on your computer's hard drive. Once you agree,
-            the
-            file
-            is added, and the cookie helps analyze web traffic or lets you know when you visit a particular site.
-            Cookies
-            allow
-            web applications to respond to you as an individual. The web application can tailor its operations to your
-            needs,
-            likes, and dislikes by gathering and remembering information about your preferences.
-        </p>
-
-        <p className="mb-4">
-            Overall, cookies help us provide you with a better website by enabling us to monitor which pages you find
-            useful
-            and which you do not. A cookie in no way gives us access to your computer or any information about you,
-            other
-            than
-            the data you choose to share with us.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-2">Links to Other Websites</h2>
-
-        <p className="mb-4">
-            Our website may contain links to other websites of interest. However, once you have used these links to
-            leave
-            our
-            site, you should note that we do not have any control over that other website. Therefore, we cannot be
-            responsible
-            for the protection and privacy of any information which you provide whilst visiting such sites and such
-            sites
-            are
-            not governed by this privacy statement. You should exercise caution and look at the privacy statement
-            applicable
-            to
-            the website in question.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-2">Controlling Your Personal Information</h2>
-
-        <p className="mb-4">
-            You may choose to restrict the collection or use of your personal information in the following ways:
-        </p>
-
-        <ul className="list-disc list-inside mb-4">
-            <li>If you have previously agreed to us using your personal information for direct marketing purposes, you
-                may
-                change your mind at any time by writing to or emailing us at [email protected]</li>
-            <li>We will not sell, distribute, or lease your personal information to third parties unless we have your
-                permission
-                or are required by law to do so. We may use your personal information to send you promotional
-                information
-                about
-                third parties which we think you may find interesting if you tell us that you wish this to happen.</li>
-            <li>You may request details of personal information which we hold about you. If you would like a copy of the
-                information held on you, please write to [Your Company Name, Address, City, State, Zip Code] or email
-                [email protected]</li>
-            <li>If you believe that any information we are holding on you is incorrect or incomplete, please write to or
-                email
-                us as soon as possible at the above address. We will promptly correct any information found to be
-                incorrect.
-            </li>
+            <li>modify or copy the materials;</li>
+            <li>use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
+            <li>attempt to decompile or reverse engineer any software contained on SparkPoint Network's website;</li>
+            <li>remove any copyright or other proprietary notations from the materials; or</li>
+            <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
         </ul>
 
         <p className="mb-4">
-            This privacy policy is subject to change without notice.
+        b. This license shall automatically terminate if you violate any of these restrictions and may be terminated by SparkPoint Network. at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
         </p>
+
+        <h2 className="text-2xl font-bold mb-2">3. Disclaimer</h2>
+        <li>The materials on SparkPoint Network's website are provided on an "as is" basis. AstraX Capital makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li>
+        <li>Further, AstraX Capital does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.</li>
+        
+        <h2 className="text-2xl font-bold mb-2">4. Limitations</h2>
+        <p className="mb-4">
+        In no event shall AstraX Capital or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on AstraX Capital's website, even if AstraX Capital or a AstraX Capital authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+        </p>
+
+        <h2 className="text-2xl font-bold mb-2">5. Accuracy of materials</h2>
+
+        <p className="mb-4">
+        The materials appearing on SparkPoint Network"s website could include technical, typographical, or photographic errors. AstraX Capital does not warrant that any of the materials on its website are accurate, complete, or current. AstraX Capital may make changes to the materials contained on its website at any time without notice. However, AstraX Capital does not make any commitment to update the materials.
+        </p>
+
+        <h2 className="text-2xl font-bold mb-2">6. Links</h2>
+
+        <p className="mb-4">
+       AstraX Capital has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by AstraX Capital of the site. Use of any such linked website is at the user's own risk.
+        </p>
+
+        <h2 className="text-2xl font-bold mb-2">7. Modifications</h2>
+
+        <p className="mb-4">
+       AstraX Capital may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.
+        </p>
+
+        <h2 className="text-2xl font-bold mb-2">8. Governing Law</h2>
+
+        <p className="mb-4">
+        These terms and conditions are governed by and construed in accordance with the laws of Philippines and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
+        </p>
+
     </div>
 </div>
     </section>

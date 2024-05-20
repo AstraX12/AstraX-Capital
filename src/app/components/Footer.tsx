@@ -75,7 +75,7 @@ const Footer = () => {
                   <a href="mailto:astraxinvestment@gmail.com"></a>
                 
               </div>
-              {/* <div className="flex justify-between">
+              <div className="flex justify-between">
                 <a
                 href="#privacy-policy" 
                 className="lg:w-full text-based text-pink-800 w-full justify-center md:w-auto"
@@ -88,7 +88,7 @@ const Footer = () => {
                   >
                   Terms and Conditions
                 </a>
-              </div> */}
+              </div>
               </div>
               
             </div>
