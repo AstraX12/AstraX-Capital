@@ -7,7 +7,7 @@ const Privacy = () => {
       id="privacy-policy"
       className="flex sm:pl-16 pl-1 sm:pr-16 pr-1 py-24 mt-6  flex-col md:flex-row bg-gradient-to-br from-blue-200 to-pink-300 border-8 border-white ">
         
-        <div className="bg-white rounded-3xl">
+        <div className="bg-white rounded-3xl leading-10">
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
             <p className="mb-4">Your privacy is important to us. It is AstraX Capital's policy to respect your privacy regarding any information we may collect from you across our website, https://astraxcapital.com, and other sites we own and operate.</p>

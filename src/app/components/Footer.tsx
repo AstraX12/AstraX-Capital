@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="bg-gradient-to-b from-white to-orange-200">
       <div className="container pt-14 pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
-            <div className="lg:w-2/6 md:w-1/2 w-full px-4">
+            <div className="md:w-96 w-full px-4">
               <a href="/" className="flex justify-center w-full  md:w-auto mb-5"> 
                 <Image
                   src="/astraXcapital.png"
@@ -75,16 +75,16 @@ const Footer = () => {
                   <a href="mailto:astraxinvestment@gmail.com"></a>
                 
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-evenly">
                 <a
                 href="privacy-policy" target="_blank"
-                className="lg:w-full text-based text-pink-800 w-full justify-center md:w-auto"
+                className="pr-6 lg:w-full text-based text-pink-800 w-full sm:w-auto"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="terms-and-conditions" target="_blank"
-                  className="lg:w-full text-based text-pink-800 w-full justify-center md:w-auto"
+                  className="lg:w-full text-based text-pink-800 w-full sm:w-auto"
                   >
                   Terms and Conditions
                 </a>
