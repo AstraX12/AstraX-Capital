@@ -77,13 +77,13 @@ const Footer = () => {
               </div>
               <div className="flex justify-between">
                 <a
-                href="#privacy-policy" 
+                href="privacy-policy" target="_blank"
                 className="lg:w-full text-based text-pink-800 w-full justify-center md:w-auto"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href="#terms-and-conditions" 
+                  href="terms-and-conditions" target="_blank"
                   className="lg:w-full text-based text-pink-800 w-full justify-center md:w-auto"
                   >
                   Terms and Conditions

@@ -4,9 +4,9 @@ const Terms = () => {
   return (
     <section
       id="terms-and-conditions"
-      className="h-screen flex flex-col items-center justify-center w-full" style={{ height: '830px' }}>
+      className="flex sm:pl-16 pl-1 sm:pr-16 pr-1 py-24 mt-6  flex-col md:flex-row bg-gradient-to-br from-blue-200 to-pink-300 border-8 border-white ">
         
-        <div className="bg-gray-100">
+        <div className="bg-white rounded-3xl">
         <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Terms and Condition</h1>
 
@@ -17,24 +17,24 @@ const Terms = () => {
 
         <h2 className="text-2xl font-bold mb-2">2. Use License</h2>
         <p className="mb-4">
-        a. Permission is granted to temporarily download one copy of the materials (information or software) on SparkPoint Network's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+        a. Permission is granted to temporarily download one copy of the materials (information or software) on AstraX Capital's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
         </p>
 
         <ul className="list-disc list-inside mb-4">
             <li>modify or copy the materials;</li>
             <li>use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
-            <li>attempt to decompile or reverse engineer any software contained on SparkPoint Network's website;</li>
+            <li>attempt to decompile or reverse engineer any software contained on AstraX Capital's website;</li>
             <li>remove any copyright or other proprietary notations from the materials; or</li>
             <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
         </ul>
 
         <p className="mb-4">
-        b. This license shall automatically terminate if you violate any of these restrictions and may be terminated by SparkPoint Network. at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+        b. This license shall automatically terminate if you violate any of these restrictions and may be terminated by AstraX Capital at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
         </p>
 
         <h2 className="text-2xl font-bold mb-2">3. Disclaimer</h2>
-        <li>The materials on SparkPoint Network's website are provided on an "as is" basis. AstraX Capital makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li>
-        <li>Further, AstraX Capital does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.</li>
+        <li className="mb-2">The materials on AstraX Capital's website are provided on an "as is" basis. AstraX Capital makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li>
+        <li className="mb-4">Further, AstraX Capital does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.</li>
         
         <h2 className="text-2xl font-bold mb-2">4. Limitations</h2>
         <p className="mb-4">
@@ -44,7 +44,7 @@ const Terms = () => {
         <h2 className="text-2xl font-bold mb-2">5. Accuracy of materials</h2>
 
         <p className="mb-4">
-        The materials appearing on SparkPoint Network"s website could include technical, typographical, or photographic errors. AstraX Capital does not warrant that any of the materials on its website are accurate, complete, or current. AstraX Capital may make changes to the materials contained on its website at any time without notice. However, AstraX Capital does not make any commitment to update the materials.
+        The materials appearing on AstraX Capital's website could include technical, typographical, or photographic errors. AstraX Capital does not warrant that any of the materials on its website are accurate, complete, or current. AstraX Capital may make changes to the materials contained on its website at any time without notice. However, AstraX Capital does not make any commitment to update the materials.
         </p>
 
         <h2 className="text-2xl font-bold mb-2">6. Links</h2>
