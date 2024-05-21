@@ -196,7 +196,7 @@ const Team = () => {
                           <h1 className="pb-0 text-center md:text-xl text-2xl font-bold text-gray-700" >Myrtle Anne Ramos</h1>
                           <h2 className="sm:pb-1 pb-2 text-center md:text-lg text-xl font-medium text-gray-600" >Venture Associate</h2>
                           <p className="sm:mb-10 mb-0 mx-6 text-center md:text-sm leading-none text-based font-medium text-gray-700">
-                          RMyrtle is the Founder and CEO of Block Tides, an award winning PR Firm of 2020 by PitchDeck Asia (Marketing, Growth Hacking, Sales, Social Media Management, Giving opportunities to people, Media Distribution Services, Investor Relations, Public Relations).
+                          Myrtle is the Founder and CEO of Block Tides, an award winning PR Firm of 2020 by PitchDeck Asia (Marketing, Growth Hacking, Sales, Social Media Management, Giving opportunities to people, Media Distribution Services, Investor Relations, Public Relations).
                           </p>
 
                     </div>
