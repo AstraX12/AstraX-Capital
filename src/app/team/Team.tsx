@@ -58,7 +58,7 @@ const Team = () => {
                           <Image src="/team/karan.png" alt="karan" width={150} height={140} />
                         </div>
                         <h1 className="pb-0 text-center md:text-xl text-2xl font-bold text-gray-700">Karan Sharma</h1>
-                        <h2 className="sm:pb-1 pb-2 text-center md:text-lg text-xl font-medium text-gray-600">Venture Analyst</h2>
+                        <h2 className="sm:pb-1 pb-2 text-center md:text-lg text-xl font-medium text-gray-600">Venture Associate</h2>
                         <p className="sm:mb-14 mb-0 text-center md:text-sm text-based leading-none font-medium text-gray-800">
                           Karan is an experienced advisor and investor in the blockchain industry since 2017. An engineer by profession, he has been instrumental in the success of several startup through successful partnerships and marketing campaigns.
                         </p>
@@ -131,7 +131,7 @@ const Team = () => {
                       />
                     </div>
                     <h1 className="pb-0 text-center text-lg md:text-xl font-bold text-gray-700">Karan Sharma</h1>
-                    <h2 className="pb-1 text-center text-sm md:text-lg font-medium text-gray-600">Venture Analyst</h2>
+                    <h2 className="pb-1 text-center text-sm md:text-lg font-medium text-gray-600">Venture Associate</h2>
                     <p className="mb-0 mx-6 text-center leading-none text-xs md:text-sm font-medium text-gray-700">
                       Karan is an experienced advisor and investor in the blockchain industry since 2017. An engineer by profession, he has been instrumental in the success of several startup through successful partnerships and marketing campaigns.
                     </p>
@@ -210,7 +210,7 @@ const Team = () => {
                           />
                       </div>
                         <h1 className="pb-0 text-center md:text-xl text-2xl  font-bold text-gray-700" >Karan Sharma</h1>
-                          <h2 className="sm:pb-1 pb-2 text-center md:text-lg text-xl font-medium text-gray-600" >Venture Analyst</h2>
+                          <h2 className="sm:pb-1 pb-2 text-center md:text-lg text-xl font-medium text-gray-600" >Venture Associate</h2>
                           <p className="sm:mb-14 mb-0 mx-6 text-center md:text-sm text-based leading-none font-medium text-gray-700">
                           Karan is an experienced advisor and investor in the 
                           blockchain industry since 2017. An engineer by profession, he has been instrumental in the success of 
