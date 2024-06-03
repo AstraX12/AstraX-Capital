@@ -44,7 +44,6 @@ const ContactUs = () => {
               alt="logo"
               width={500}
               height={400}
-              objectPosition="relative"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 sm:pt-0 pt-12 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
