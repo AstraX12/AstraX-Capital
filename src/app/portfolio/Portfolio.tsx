@@ -30,6 +30,10 @@ const Portfolio = () => {
           <Image src="/portfolio_logos/Zoth.png" width={0}
                 height={0} sizes="150vw" alt="Zoth Logo" className="w-full h-auto"/></a>
 
+        <a href="https://nyanheroes.com/" target="_blank" className="">
+            <Image src="/portfolio_logos/Nyan Heroes.png"  width={0}
+                  height={0}  sizes="100vw"  alt="Nyan Heroes Logo" className="w-full h-auto"/></a>
+
         <a href="https://codyfight.com" target="_blank" className=""> 
           <Image src="/portfolio_logos/Cody Fight.png" width={0}
                 height={0} sizes="150vw" alt="Cody Fight Logo" className="w-full h-auto"/></a>
@@ -69,10 +73,6 @@ const Portfolio = () => {
           <a href="https://www.projectseed.com/" target="_blank" className="">
             <Image src="/portfolio_logos/Project Seed.png"  width={0}
                   height={0}  sizes="100vw"  alt="Project Seed Logo" className="w-full h-auto"/></a>
-
-          <a href="https://nyanheroes.com/" target="_blank" className="">
-            <Image src="/portfolio_logos/Nyan Heroes.png"  width={0}
-                  height={0}  sizes="100vw"  alt="Nyan Heroes Logo" className="w-full h-auto"/></a>
 
           <a href="https://www.chainport.io/" target="_blank" className="">
             <Image src="/portfolio_logos/ChainPort.png"  width={0}
@@ -148,7 +148,7 @@ const Portfolio = () => {
             <p className="sm:px-3 px-3 pb-8 leading-none sm:text-xl text-sm text-gray-500 font-medium mb-5">
             We invest in and operate validator nodes to bolster the long-term growth of highly promising projects.</p>
           </div>
-         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center sm:w-2/3 w-80 mb-7">
+         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-2/3 w-96 mb-7">
           <a href="https://xai.games/" target="_blank" className="">  
             <Image src="/portfolio_logos/XAI.png" width={0}
                 height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/></a>
@@ -164,6 +164,10 @@ const Portfolio = () => {
           <a href="https://sophon.xyz/" target="_blank" className="">         
             <Image src="/portfolio_logos/Sophon.png"  width={0}
                   height={0}  sizes="100vw" alt="Sophon Logo" className="w-full h-auto"/></a>
+
+        <a href="https://carv.io" target="_blank" className="">         
+            <Image src="/portfolio_logos/carv.png"  width={0}
+                  height={0}  sizes="100vw" alt="CARV Logo" className="w-full h-auto"/></a>
           </div>
       
     </section>
