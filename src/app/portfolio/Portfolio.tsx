@@ -33,11 +33,7 @@ const Portfolio = () => {
         <a href="https://nyanheroes.com/" target="_blank" className="">
             <Image src="/portfolio_logos/Nyan Heroes.png"  width={0}
                   height={0}  sizes="100vw"  alt="Nyan Heroes Logo" className="w-full h-auto"/></a>
-
-        <a href="https://codyfight.com" target="_blank" className=""> 
-          <Image src="/portfolio_logos/Cody Fight.png" width={0}
-                height={0} sizes="150vw" alt="Cody Fight Logo" className="w-full h-auto"/></a>
-
+      
         <a href="https://playwildforest.io" target="_blank" className=""> 
           <Image src="/portfolio_logos/Wild Forest.png" width={0}
                 height={0} sizes="150vw" alt="Wild Forest Logo" className="w-full h-auto"/></a>
@@ -73,6 +69,10 @@ const Portfolio = () => {
           <a href="https://www.projectseed.com/" target="_blank" className="">
             <Image src="/portfolio_logos/Project Seed.png"  width={0}
                   height={0}  sizes="100vw"  alt="Project Seed Logo" className="w-full h-auto"/></a>
+
+          <a href="https://codyfight.com" target="_blank" className=""> 
+            <Image src="/portfolio_logos/Cody Fight.png" width={0}
+                height={0} sizes="150vw" alt="Cody Fight Logo" className="w-full h-auto"/></a>
 
           <a href="https://www.chainport.io/" target="_blank" className="">
             <Image src="/portfolio_logos/ChainPort.png"  width={0}
