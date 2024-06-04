@@ -16,7 +16,7 @@ const Team = () => {
                 {/* Desktop view only*/}
                 <div className="hidden below-1024:hidden md:block">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center pt-12">
-                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '560px', width: '340px' }}>
+                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '570px', width: '340px' }}>
                       <div className="relative left-20 right-20 z-15">
                         <Image src="/team/andy.png" alt="andy" width={150} height={140} />
                       </div>
@@ -29,7 +29,7 @@ const Team = () => {
                       </div>
                     </div>
 
-                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '560px', width: '340px' }}>
+                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '570px', width: '340px' }}>
                       <div className="relative left-20 right-20 z-15">
                         <Image src="/team/rico.png" alt="rico" width={150} height={140} />
                       </div>
@@ -40,7 +40,7 @@ const Team = () => {
                       </p>
                     </div>
 
-                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '560px', width: '340px' }}>
+                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '570px', width: '340px' }}>
                       <div className="relative left-20 right-20 z-15">
                         <Image src="/team/myrtle.png" alt="karan" width={150} height={140} />
                       </div>
@@ -55,7 +55,7 @@ const Team = () => {
                   </div>
                   <div className="flex justify-center items-center pt-2">
                     <div className="flex justify-between">
-                  <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '560px', width: '340px' }}>
+                  <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '570px', width: '340px' }}>
                       <div className="relative left-20 right-20 z-15">
                         <Image src="/team/karan.png" alt="karan" width={150} height={140} />
                       </div>
@@ -66,7 +66,7 @@ const Team = () => {
                       </p>
                     </div>
 
-                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '560px', width: '340px' }}>
+                    <div className="relative bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '570px', width: '340px' }}>
                       <div className="relative left-20 right-20 z-15">
                         <Image src="/team/atty padilla.png" alt="karan" width={150} height={140} />
                       </div>
