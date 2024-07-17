@@ -30,6 +30,10 @@ const Portfolio = () => {
           <Image src="/portfolio_logos/Zoth.png" width={0}
                 height={0} sizes="150vw" alt="Zoth Logo" className="w-full h-auto"/></a>
 
+        <a href="https://fx.land" target="_blank" className=""> 
+          <Image src="/portfolio_logos/Functionland.png" width={0}
+                height={0} sizes="150vw" alt="Functionland Logo" className="w-full h-auto"/></a>
+
         <a href="https://nyanheroes.com/" target="_blank" className="">
             <Image src="/portfolio_logos/Nyan Heroes.png"  width={0}
                   height={0}  sizes="100vw"  alt="Nyan Heroes Logo" className="w-full h-auto"/></a>
