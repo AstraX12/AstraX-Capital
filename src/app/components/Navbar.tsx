@@ -17,9 +17,9 @@ const Navbar = () => {
     <nav className="bg-white fixed w-full z-10 top-0">
       <div className="max-w-8xl mx-auto px-4 flex sm:justify-around justify-between items-center py-4">
         <div className="flex items-center space-x-4">
-          <a href="/" className="text-black" onClick={closeNavbar}>
-            <Image src="/astraXcapital.png" alt="logo" width={50} height={40} />
-          </a>
+        <a href="/" className="text-black" onClick={closeNavbar}>
+          <Image src="https://astraxcapital.com/astraXcapital.png" alt="logo" width={50} height={40} />
+        </a>
           <h1 className="hidden sm:block text-3xl font-bold whitespace-nowrap dark:text-gray-700">AstraX Capital</h1>
         </div>
         <div className="hidden md:block">
