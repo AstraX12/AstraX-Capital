@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/AstraX-Capital",
-  output: "export",
-  reactStrictMode: true,
-};
+const nextConfig = {}
 
-module.exports = nextConfig;
+module.exports = nextConfig
+
+module.exports = {
+    images: {
+      domains: ['astraxcapital.com'], 
+    },
+  }
+
+  
