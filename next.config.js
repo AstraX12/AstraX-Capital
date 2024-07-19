@@ -4,11 +4,12 @@ const nextConfig = {}
 module.exports = nextConfig
 
 module.exports = {
-    images: {
-      domains: ['astraxcapital.com'], 
-    },
-  }
-
-
-
-  
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'astraxcapital.com',
+      },
+    ],
+  },
+}
