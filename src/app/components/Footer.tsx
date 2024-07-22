@@ -13,10 +13,10 @@ const Footer = () => {
             <div className="md:w-96 w-full px-4">
               <a href="/" className="flex justify-center w-full  md:w-auto mb-5"> 
                 <Image
-                  src="/astraXcapital.png"
+                  src="/AstraXLogo_768x768.png"
                   alt="logo"
-                  width={100}
-                  height={100}
+                  width={150}
+                  height={150}
                 />
               </a>
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full  md:w-auto">
