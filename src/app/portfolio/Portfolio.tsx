@@ -26,6 +26,10 @@ const Portfolio = () => {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-3/4 w-80">
           {/* Images Go Here */}
 
+          <a href="https://www.bracket.fi" target="_blank" className=""> 
+          <Image src="/portfolio_logos/Bracket.png" width={0}
+                height={0} sizes="150vw" alt="Bracket Logo" className="w-full h-auto"/></a>
+
         <a href="https://www.zoth.io" target="_blank" className=""> 
           <Image src="/portfolio_logos/Zoth.png" width={0}
                 height={0} sizes="150vw" alt="Zoth Logo" className="w-full h-auto"/></a>
