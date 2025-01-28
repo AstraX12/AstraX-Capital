@@ -1,115 +1,77 @@
 import React from "react";
-import Image from "next/image";
-import FeaturesSection from './FeaturesSection';
+import FeaturesSection from "./FeaturesSection";
+import FeatureCard from "./FeatureCard";
+import DropdownFeature from "./Dropdownfeature";
 
-const AboutUs = () => {
+interface Feature {
+  title: string;
+  description: string;
+}
+
+const features: Feature[] = [
+  {
+    title: "Incubate",
+    description:
+      "Are you a visionary entrepreneur with a groundbreaking concept or idea in the Web3 space? Our program is designed to help you bridge the gap between idea and execution, turning your vision into a reality.",
+  }, 
+  {
+    title: "Advice",
+    description:
+      "We offer comprehensive advisory services, providing strategic guidance, market insights, and operational support to help you navigate various challenges and make informed decisions.",
+  },
+  {
+    title: "Train and Educate",
+    description:
+      "At AstraX Capital, we empower entrepreneurs, investors, and enthusiasts with educational resources and training to navigate the Web3 and digital asset landscape with confidence.",
+  },
+];
+
+const AboutUs: React.FC = () => {
   return (
-    <section
-      id="about_us"
-      className="text-gray-700 body-font min-h-screen w-screen"
-    >
-      <div className="container sm:px-0 px-8 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-1 flex-col items-center text-center">
-          <h1 className="title-font sm:text-4xl text-4xl mb-16 font-bold text-pink-800">
-            ABOUT US
-          </h1>
-          
-          <p className="sm:px-0 px-3 lg:w-4/6 w-full leading-relaxed lg:text-2xl sm:text-xl text-xl text-based font-medium mb-5">
-          At AstraX Capital, we're driven by a passion for pioneering technologies that shape the future, 
-          specializing in blockchain technology, artificial intelligence, and other innovative sectors. 
-          Our mission is to <span className="text-pink-800">propel the success of visionary entrepreneurs </span> and transformative ideas. 
-          We provide strategic investment to startups at every stage of their journey, from inception to scale. 
-          Founded on principles of integrity, innovation, and collaboration, we're dedicated to building a 
-          brighter tomorrow through technology-driven innovation.
+    <section id="about_us" className="text-gray-700 body-font min-h-screen w-screen">
+      <div className="container mx-auto flex items-center justify-center pt-40">
+        <div className="grid grid-cols-1 lg:grid-cols-[25%_64px_65%] gap-6 items-center w-full max-w-6xl">
+          {/* Title Section */}
+          <h1 className="text-6xl font-bold text-pink-800 text-right">About Us</h1>
 
-          </p>
-          <p className="sm:px-0 px-3 lg:w-4/6 w-full leading-relaxed lg:text-2xl sm:text-xl text-xl text-based font-medium">
+          {/* Divider */}
+          <div className="bg-orange-500 w-[6px] h-32 mx-auto rounded-full"></div>
 
-          Our team brings together seasoned investors, industry experts, and visionary leaders who share 
-          a <span className="text-pink-800">unifying mission</span>: to identify and nurture the next generation of game-changing companies. 
-          From our partners and <span className="text-pink-800">industry experts</span> to our <span className="text-pink-800">passionate</span> support staff, each member of our 
-          team contributes their unique expertise and passion to drive positive change and create 
-          value for our portfolio companies and investors alike.
+          {/* Content Section */}
+          <p className="text-lg text-gray-700 leading-relaxed">
+                      At AstraX Capital, we invest in pioneering technologies like blockchain and 
+            AI, empowering visionary entrepreneurs to transform ideas into impactful 
+            businesses. Guided by integrity, innovation, and collaboration, our seasoned team 
+            partners with startups at every stage to drive growth, create value, and shape the 
+            future.
           </p>
         </div>
       </div>
-      
-      <FeaturesSection />
 
-          {/* Hide on mobile */}
-          <div className="hidden below-1024:hidden md:block h-full " style={{ height: '650px' }}>
-              <div className="flex justify-center items-center pt-12">
-              <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8">
-              
-                  <div className="flex justify-center mb-9 text-center">
-                      <h1 className="title-font text-4xl font-large text-gray-800 text-shadow font-bold">
-                        What can we offer?
-                      </h1>
-                  </div>
+      {/* <FeaturesSection /> */}
+      <DropdownFeature />
 
-                  <div className="flex justify-center md:flex-row" style={{ height: '230px', width:'1200px' }}>
-                  <div className="bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '460px', width: '335px'  }}>
-                  <h1 className="pb-2 mt-2 text-center text-2xl font-bold text-gray-600">Incubate</h1>
-                  <p className="mx-5 text-center text-lg md:sm font-medium">
-                    Are you a visionary entrepreneur with a groundbreaking concept or
-                    idea in the Web3 space? Our program is designed to help you bridge 
-                    the gap between idea and execution, turning your vision into a reality.</p>
-                  </div>
-                  <div className="bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '460px', width: '335px' }}>
-                  <h1 className="pb-2 text-center text-2xl font-bold text-gray-600">Advice</h1>
-                  <p className=" mx-5 text-center text-lg md:sm font-medium">
-                    We provide a comprehensive advisory services, ensuring support throughout 
-                    our partnership. Whether you need strategic guidance, market insights, 
-                    or operational support, our team of experienced advisors is here to help 
-                    you navigate the complexities of the cryptocurrency landscape and make 
-                    informed decisions that drive results.</p>
-                  </div>
-                  <div className="bg-white rounded-lg p-4 m-2 shadow-lg" style={{ height: '460px', width: '335px'  }}>
-                  <h1 className="pb-2 text-center text-2xl font-bold text-gray-600">Train and Educate</h1>
-                  <p className=" mx-5 text-center text-lg md:sm font-medium">
-                    At AstraX Capital, we’re committed to empowering entrepreneurs, investors, 
-                    and enthusiasts with the knowledge and skills they need to succeed in the market. 
-                    Whether you're new to Web3 space or a seasoned veteran, our educational resources 
-                    and training programs are designed to equip you with the tools and insights to 
-                    navigate the complexities of the digital asset landscape with confidence.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Features Card */}
+        <div
+          className="flex flex-col items-center justify-center my-0"
+          style={{
+            backgroundImage: "url('/backgrounds/BG2Full.png')",
+            backgroundSize: "cover", 
+            backgroundPosition: "center", 
+            backgroundRepeat: "no-repeat", 
+            width: "100%", 
+            height: "100vh", 
+          }}
+        >
+          <div className="flex justify-center mb-9 text-center mx-6">
+            <h1 className="pt-12 title-font text-6xl font-large text-pink-800 text-shadow font-bold">
+              What can we offer?
+            </h1>
           </div>
-        
-            {/* Mobile view */}
-            <div className="below-1024:block lg:hidden ">
-              <div className="flex justify-center items-center">
-                <div className="bg-gradient-to-r from-blue-100 to-pink-200 rounded-lg p-8">
-                  <div className="flex justify-center mb-9 text-center">
-                      <h1 className="pt-12 title-font text-2xl font-large text-gray-800 text-shadow font-bold">
-                        What can we offer?
-                      </h1>
-                  </div>
-                  <div className="flex flex-col md:flex-row md:justify-between">
-                    <div className="bg-white rounded-lg p-4 m-2 md:w-1/3">
-                      <h1 className="pb-2 text-center text-lg font-bold text-gray-600">Incubate</h1>
-                      <p className="mb-3 mx-5 text-center text-sm font-medium">
-                        Are you a visionary entrepreneur with a groundbreaking concept or idea in the Web3 space? Our program is designed to help you bridge the gap between idea and execution, turning your vision into a reality.
-                      </p>
-                    </div>
-                    <div className="bg-white rounded-lg p-4 m-2 md:w-1/3">
-                      <h1 className="pb-2 text-center text-lg font-bold text-gray-600">Advice</h1>
-                      <p className="mb-3 mx-5 text-center text-sm font-medium">
-                        We provide comprehensive advisory services, ensuring support throughout our partnership. Whether you need strategic guidance, market insights, or operational support, our team of experienced advisors is here to help you navigate the complexities of the cryptocurrency landscape and make informed decisions that drive results.
-                      </p>
-                    </div>
-                    <div className="bg-white rounded-lg p-4 m-2 md:w-1/3">
-                      <h1 className="pb-2 text-center text-lg font-bold text-gray-600">Train and Educate</h1>
-                      <p className="mb-3 mx-5 text-center text-sm font-medium">
-                        At AstraX Capital, we’re committed to empowering entrepreneurs, investors, and enthusiasts with the knowledge and skills they need to succeed in the market. Whether you're new to the Web3 space or a seasoned veteran, our educational resources and training programs are designed to equip you with the tools and insights to navigate the complexities of the digital asset landscape with confidence.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {features.map((feature, index) => (
+            <FeatureCard key={index} title={feature.title} description={feature.description} />
+          ))}
+        </div>
 
     </section>
   );

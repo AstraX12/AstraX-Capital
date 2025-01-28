@@ -7,7 +7,7 @@ const Footer = () => {
       <footer id="footer">
     
         
-      <div className="bg-gradient-to-b from-white to-orange-200">
+      <div className="bg-gray-900">
       <div className="container pt-14 pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
             <div className="md:w-96 w-full px-4">

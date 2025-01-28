@@ -20,23 +20,23 @@ const Navbar = () => {
         <a href="/" className="text-black" onClick={closeNavbar}>
             <Image src="https://astraxcapital.com/AstraXLogo_768x768.png" alt="logo" width={50} height={40} />
         </a>
-          <h1 className="hidden sm:block text-3xl font-bold whitespace-nowrap dark:text-gray-700">AstraX Capital</h1>
+          <h1 className="hidden sm:block text-3xl font-bold whitespace-nowrap dark:text-pink-800">AstraX Capital</h1>
         </div>
         <div className="hidden md:block">
           <div className="flex space-x-4">
-            <a href="/" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar} aria-current="page">
+            <a href="/" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-800" onClick={closeNavbar} aria-current="page">
               Home
             </a>
-            <a href="#about_us" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <a href="#about_us" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-800" onClick={closeNavbar}>
               About Us
             </a>
-            <a href="#portfolio" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <a href="#portfolio" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-800" onClick={closeNavbar}>
               Portfolio
             </a>
-            <a href="#team" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <a href="#team" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-800" onClick={closeNavbar}>
               Team
             </a>
-            <a href="#contact_us" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500" onClick={closeNavbar}>
+            <a href="#contact_us" className="text-black font-medium focus:text-yellow-500 focus:underline hover:underline hover:text-pink-800" onClick={closeNavbar}>
               Contact Us
             </a>
           </div>
