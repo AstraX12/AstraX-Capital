@@ -71,7 +71,13 @@ const AboutUs: React.FC = () => {
           {features.map((feature, index) => (
             <FeatureCard key={index} title={feature.title} description={feature.description} />
           ))}
-        </div>
+          <div className="container mx-auto flex items-center justify-center pt-20 px-80">
+            <p className="text-2xl text-gray-700 leading-relaxed text-center">
+            We specialize in supporting visionary founders who are developing innovative 
+            infrastructure and decentralized applications within the Web3 ecosystem.
+            </p>
+            </div>
+          </div>
 
     </section>
   );
