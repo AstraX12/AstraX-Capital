@@ -34,17 +34,14 @@ const AboutUs: React.FC = () => {
   return (
     <section id="about_us" className="text-gray-700 body-font min-h-screen w-screen">
       <div className="container mx-auto flex items-center justify-center pt-10 lg:pt-40 px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-[25%_64px_65%] gap-6 items-center w-full max-w-6xl">
+        <div className="grid grid-cols-1 lg:grid-row gap-6 items-center w-full">
           {/* Title Section */}
-          <h1 className="text-4xl sm:text-6xl font-bold text-pink-800 text-center lg:text-right">
+          <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-center lg:text-center">
             About Us
           </h1>
 
-          {/* Divider */}
-          <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-40 mx-auto rounded-full"></div>
-
           {/* Content Section */}
-          <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+          <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-justify px-40 pb-20">
               At AstraX Capital, we fuel the future by investing in visionary entrepreneurs 
               pioneering transformative technologies—from blockchain and AI to Web3 
               ecosystems. Our mission is to turn bold ideas into market-defining ventures 
@@ -62,7 +59,7 @@ const AboutUs: React.FC = () => {
 
       {/* Features Card */}
       <div
-        className="flex flex-col items-center justify-center my-0 sm:pt-0 pt-20 pr-0 sm:pr-20"
+        className="flex flex-col items-center py-20"
         style={{
           backgroundImage: "url('/backgrounds/BG2Full.png')",
           backgroundSize: "cover",
@@ -71,24 +68,29 @@ const AboutUs: React.FC = () => {
           width: "100%",
           height: "100vh",
         }}>
-        <div className="flex justify-center mb-9 text-center mx-6 sm:my-20 my-0">
-          <h1 className="pt-12 title-font text-4xl sm:text-6xl font-large text-pink-800 text-shadow font-bold">
+        <div className="flex justify-center mb-9 text-center mx-6 sm:my-0 my-0">
+          <h1 className="pt-4 title-font text-4xl sm:text-5xl font-large text-pink-800 text-shadow font-bold pb-16">
             What can we offer?
           </h1>
         </div>
         {features.map((feature, index) => (
-          <FeatureCard key={index} title={feature.title} description={feature.description} />
+          <FeatureCard key={index} title={feature.title} description={feature.description} subtitle={feature.subtitle} />
         ))}
       </div>
 
-      <div className="flex flex-col items-center justify-center my-[420px] sm:my-0  bg-full bg-cover"style={{ backgroundImage: "url('/backgrounds/BGSides.png')", 
-        backgroundSize: "cover", 
-        backgroundPosition: "center", 
-        backgroundRepeat: "no-repeat", 
-        width: "100%", height: "100vh" }}>
+      <div className="flex flex-col items-center justify-center my-[420px] sm:my-0 bg-full bg-cover"
+       style={{
+        backgroundImage: "url('/backgrounds/.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        height: "100vh",
+      }}
+      >
         <div className="flex flex-col justify-center mb-9 text-center mx-6 sm:my-90 my-0">
-          <h1 className="pt-12 text-4xl sm:text-6xl font-bold text-pink-800 text-shadow">Our Focus Areas</h1>
-          <h2 className="text-2xl font-bold italic text-pink-800 text-shadow">We back innovators building the pillars of Web3 and beyond:</h2>
+          <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-shadow pb-3">Our Focus Areas</h1>
+          <h2 className="text-xl font-bold italic text-pink-800 text-shadow">We back innovators building the pillars of Web3 and beyond:</h2>
         </div>
         {[
           { title: "Layer 1 & 2 Infrastructure", desc: "Scalable blockchain protocols and interoperability solutions" },
@@ -97,36 +99,37 @@ const AboutUs: React.FC = () => {
           { title: "Metaverse & NFTs", desc: "Digital ownership, immersive experiences, and creator economies" },
           { title: "AI-Driven Innovation", desc: "Machine learning models enhancing blockchain efficiency and user adoption" }
         ].map(({ title, desc }, index) => (
-          <div key={index} className="grid grid-cols-1 lg:grid-cols-[40%_20px_65%] gap-0 sm:gap-6 pb-4 sm:pb-0 items-center w-full max-w-6xl pt-2">
-            <h3 className="text-3xl font-bold text-pink-800 text-center lg:text-right">{title}:</h3>
-            <div className="bg-orange-500 w-[6px] h-0 sm:h-8 my-auto rounded-full"></div>
-            <p className="text-lg text-gray-700 text-center lg:text-left">{desc}</p>
+          <div key={index} className="grid grid-cols-1 lg:grid-row items-center w-full max-w-xl p-2 pb-12 sm:pb-5">
+          <div className="border border-yellow-600 rounded-3xl">
+            <h3 className="text-2xl sm:text-4xl font-semibold text-pink-800 text-center sm:text-center pt-4">{title}</h3>
+            <p className="text-lg text-gray-700 leading-relaxed text-center sm:text-center pb-3 px-4">{desc}</p>
+            </div>
           </div>
         ))}
 
-           {/* */}
-        <div className="flex flex-col items-center justify-center my-0 py-20 pb-0 ">
-        <div className="container mx-auto flex items-center justify-center pt-10 lg:pt-20 pb-20 px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-[45%_90px_35%] gap-6 items-center w-full max-w-6xl">
-          {/* Title Section */}
-          <h1 className="text-4xl sm:text-6xl font-bold text-pink-800 text-center lg:text-right">
-          READY TO BUILD TOMORROW?
-          </h1>
-            {/* Divider */}
-            <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-40 mx-auto rounded-full"></div>
+      </div>
+        
+        {/* */}
+        <div className="flex flex-col items-center justify-center my-0 py-20 pb-0 bg-purple-500 ">
+          <div className="container mx-auto flex items-center justify-center  pb-20 px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-[42%_90px_67%] gap-0 items-center w-full max-w-6xl">
+            {/* Title Section */}
+            <h1 className="text-4xl sm:text-6xl font-bold text-white text-center lg:text-right">
+            READY TO BUILD TOMORROW?
+            </h1>
+              {/* Divider */}
+              <div className="bg-black h-[3px] w-12 sm:w-[6px] sm:h-40 mx-auto rounded-full"></div>
 
-          {/* Content Section */}
-          <p className="text-base sm:text-2xl text-gray-700 leading-relaxed text-center lg:text-left">
-            Whether you’re a founder with a disruptive prototype or an investor seeking 
-            frontier-tech opportunities—let’s pioneer the future together. 
-            <a href="#contact_us" className="text-pink-900 hover:underline"> Contact Us </a> 
-            to start the conversation.
-          </p>
+            {/* Content Section */}
+            <p className="text-base sm:text-2xl text-white leading-relaxed text-center lg:text-left">
+              Whether you’re a founder with a disruptive prototype or an investor seeking 
+              frontier-tech opportunities—let’s pioneer the future together. 
+              <a href="#contact_us" className="text-black hover:underline"> Contact Us </a> 
+              to start the conversation.
+            </p>
+          </div>
         </div>
       </div>
-      </div>
-      </div>
-      
 
    
 
