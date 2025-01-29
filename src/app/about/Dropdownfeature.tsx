@@ -49,7 +49,7 @@ export default function FAQSection() {
 
   return (
     <div className="max-w-5xl mx-auto p-0 sm:p-6 pt-20 pb-40">
-      <div className="space-y-0 sm:space-y-4 mb-4">
+      <div className="space-y-0 sm:space-y-4 mb-24">
         {faqs.map((faq, index) => (
           <div
             key={index}
@@ -77,7 +77,7 @@ export default function FAQSection() {
 
               <div className="flex-1">
                 <div className="flex justify-between items-center">
-                  <h3 className="text-2xl sm:text-4xl font-bold text-pink-800 mb-1 mt-0 sm:mt-5 sm:ml-2 ml-0">
+                  <h3 className="text-2xl sm:text-3xl font-semibold text-pink-800 mb-1 mt-0 sm:mt-5 sm:ml-2 ml-0">
                     {faq.question}
                   </h3>
                   <span
