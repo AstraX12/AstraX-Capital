@@ -16,10 +16,11 @@ const Home = () => {
           <h1 className="title-font sm:text-6xl text-3xl mb-6 font-large text-white text-shadow font-bold">
             AstraX Capital
           </h1>
-          <p className="mb-8 pr-80 pl-80 leading-relaxed sm:text-2xl text-white text-center">
+          <p className="mb-8 sm:pr-80 pr-10 sm:pl-80 pl-10 leading-relaxed sm:text-2xl text-white text-center">
             We specialize in supporting visionary founders who are developing innovative infrastructure and decentralized 
             applications within the Web3 Ecosystem.
           </p>
+
           <div className="flex justify-center">
           <button className="ml-0 inline-flex text-white sm:py-3 py-2 sm:px-10 px-6 bg-gradient-to-t from-orange-600 to-pink-800 focus:outline-none hover:not-focus:bg-indigo-700 rounded-full text-lg font-sans items-center">
             <a href="#portfolio" className="">PORTFOLIO</a>

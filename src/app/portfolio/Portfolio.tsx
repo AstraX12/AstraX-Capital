@@ -22,27 +22,37 @@ const Portfolio = () => {
           </div>
 
           <div className="flex items-center justify-center w-full max-w-3xl mb-36 mt-32">
-          <h2 className="w-1/3 pr-4 text-3xl font-bold text-pink-800">
-            Businesses we've backed
-          </h2>
-          <div className="w-[6px] h-20 bg-orange-500 mx-6 rounded-full"></div>
-          <p className="w-2/3 text-lg font-medium text-gray-700">
-            We invest in exceptional entrepreneurs who are crafting innovative solutions for the
-            emerging Web3 economy.
-          </p>
-        </div>
+              <div className="grid grid-cols-1 lg:grid-cols-[25%_64px_65%] gap-6 items-center w-full max-w-6xl">
+                {/* Title Section */}
+                <h1 className="text-2xl sm:text-3xl font-bold text-pink-800 text-center lg:text-right">
+                Businesses we've backed
+                </h1>
+                {/* Divider */}
+                <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-20 mx-auto rounded-full"></div>
+                {/* Content Section */}
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+                  We invest in exceptional entrepreneurs who are crafting innovative solutions for the
+                  emerging Web3 economy.
+                </p>
+              </div>
+          </div>
 
           {/* Logos */}
           <Logos />
 
           <div className="flex items-center justify-center w-full max-w-3xl mb-36 mt-32">
-            <h2 className="w-1/3 pr-4 text-3xl font-bold text-pink-800">
-            Nodes we’ve invested 
-            </h2>
-            <div className="w-[6px] h-20 bg-orange-500 mx-6 rounded-full"></div>
-            <p className="w-2/3 text-lg font-medium text-gray-700">
-            We invest in and operate validator nodes to bolster the long-term growth of highly promising projects.
-            </p>
+              <div className="grid grid-cols-1 lg:grid-cols-[25%_64px_65%] gap-6 items-center w-full max-w-6xl">
+                {/* Title Section */}
+                <h1 className="text-2xl sm:text-3xl font-bold text-pink-800 text-center lg:text-right">
+                Nodes we’ve invested 
+                </h1>
+                {/* Divider */}
+                <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-20 mx-auto rounded-full"></div>
+                {/* Content Section */}
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+                We invest in and operate validator nodes to bolster the long-term growth of highly promising projects.
+                </p>
+              </div>
           </div>
         
          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-2/3 w-96 mb-80">

@@ -6,14 +6,14 @@ const Team = () => {
     {
       image: "/team/andy.png",
       name: "Andy Agnas",
-      title: "Founding Partner & CEO",
+      title: "CEO and Founder",
       description:
         "Andy is a Certified Public Accountant (CPA) by profession and has been a serial tech entrepreneur since 2017. He is the Founder of SparkPoint Technologies Inc., serves as Chief Executive Officer of MetaGaming Guild Ltd. and Astra Interactive Studios Inc. Andy is also a blockchain enthusiast, speaker, mentor, and angel investor in several startup WEB3 projects.",
     },
     {
       image: "/team/rico.png",
       name: "Rico Zuñiga",
-      title: "Venture Associate",
+      title: "Investor",
       description:
         "Rico is a serial tech entrepreneur and early advisor of SparkPoint. He currently serves as SparkPoint Technologies Inc.'s Chief Technology Officer. Rico has been in the tech industry for more than 16 years and is one of the pioneers in the Philippine tech startup industry.",
     },
@@ -27,7 +27,7 @@ const Team = () => {
     {
       image: "/team/karan.png",
       name: "Karan Sharma",
-      title: "Venture Associate",
+      title: "Investment Analyst",
       description:
         "Karan is an experienced advisor and investor in the blockchain industry since 2017. An engineer by profession, he has been instrumental in the success of several startups through successful partnerships and marketing campaigns.",
     },

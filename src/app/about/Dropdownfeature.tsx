@@ -1,25 +1,37 @@
 "use client";
 import { useState } from "react";
 
+interface DropdownFeatureProps {
+  className?: string; // Allow className as an optional prop
+}
+
+const DropdownFeature: React.FC<DropdownFeatureProps> = ({ className }) => {
+  return (
+    <div className={`dropdown-feature ${className}`}>
+      {/* Component content */}
+    </div>
+  );
+};
+
 const faqs = [
   {
     question: "Empowering Early-Stage Innovation",
-    answer: "At AstraX Capital, we specialize in identifying and nurturing early-stage startups during private and seed rounds, partnering with founders to transform innovative ideas into industry-revolutionizing and sustainable businesses.",
+    answer: "We specialize in identifying and nurturing disruptive startups at the earliest stages, from pre-seed to Series A. Beyond capital, we provide founders with tailored mentorship, access to our global network, and operational resources to transform groundbreaking concepts into scalable, sustainable businesses. Our hands-on approach ensures innovators can focus on what matters most: building solutions that revolutionize industries.",
     image: "/early stage innovation icon.png",
   },
   {
     question: "Nurturing Growth and Expansion",
-    answer: "As our portfolio companies evolve from microcaps to scale-ups, we champion their growth by facilitating follow-on funding, strategic partnerships, and market expansion, leveraging our network and expertise to navigate regulatory challenges, access new markets, and scale operations.",
+    answer: "As your venture scales from microcap to market leader, we stand by your side. Our growth framework includes securing follow-on funding, forging strategic partnerships, and unlocking global markets. With deep expertise in navigating regulatory hurdles and optimizing operational scalability, we empower portfolio companies to thrive in dynamic environments—turning potential into dominance.",
     image: "/nurturing growth and expansion icon.png",
   },
   {
     question: "Driving Innovation, Delivering Results",
-    answer: "At AstraX Capital, we leverage our proven track record to identify, invest in, and support disruptive startups, driving positive change and delivering impressive returns through strategic portfolio management.",
+    answer: "With a proven track record of backing industry disruptors, we combine data-driven insights and sector-specific expertise to curate high-impact portfolios. By aligning with startups that challenge the status quo, we’ve consistently delivered exceptional returns while catalyzing meaningful technological progress. Our success is measured not just in financial metrics, but in ecosystems transformed.",
     image: "/driving innovation delivering results icon.png",
   },
   {
     question: "Continuous Growth and Success",
-    answer: "Our success at AstraX Capital reflects our methodical, result-oriented strategy that emphasizes strategic planning, ongoing optimization, and proactive management to support our portfolio companies' growth in a competitive landscape.",
+    answer: "Our methodical, adaptive strategy ensures sustained momentum. Through relentless optimization, proactive risk management, and real-time market alignment, we equip portfolio companies to outpace competitors and seize emerging opportunities. At AstraX, growth isn’t a phase—it’s our perpetual commitment.",
     image: "/continuous growth and success icon.png",
   },
 ];
@@ -36,8 +48,8 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-6 pt-20 pb-40">
-      <div className="space-y-4 mb-4">
+    <div className="max-w-5xl mx-auto p-0 sm:p-6 pt-20 pb-40">
+      <div className="space-y-0 sm:space-y-4 mb-4">
         {faqs.map((faq, index) => (
           <div
             key={index}
@@ -60,12 +72,12 @@ export default function FAQSection() {
 
               {/* Orange Line */}
               {hoverIndex === index && (
-                <div className="absolute left-8 top-20 w-1 h-20 bg-orange-500 rounded-full transition-all duration-500"></div>
+                <div className="absolute left-8 top-20 w-1 h-0 sm:h-28 bg-orange-500 rounded-full transition-all duration-500"></div>
               )}
 
               <div className="flex-1">
                 <div className="flex justify-between items-center">
-                  <h3 className="text-4xl font-bold text-pink-800 mb-1 mt-5 ml-2">
+                  <h3 className="text-2xl sm:text-4xl font-bold text-pink-800 mb-1 mt-0 sm:mt-5 sm:ml-2 ml-0">
                     {faq.question}
                   </h3>
                   <span
@@ -94,3 +106,4 @@ export default function FAQSection() {
     </div>
   );
 }
+

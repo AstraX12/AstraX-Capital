@@ -35,21 +35,25 @@ const ContactUs = () => {
     <>
       <section
         id="contact_us"
-        className="min-h-screen flex flex-col items-center justify-center w-full bg-cover bg-center" style={{ backgroundImage: "url('/backgrounds/BGSides.png')" }}
+        className="min-h-screen flex flex-col items-center justify-center w-full bg-cover bg-center" 
       >
 
         <div 
             className="flex pl-0 pr-0 py-0 mt-6 items-center text-center flex-col md:flex-row " >
           <div className="lg:flex-grow md:w-full sm:pt-0 pt-12 flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center text-center ">
-          <div className="flex items-center justify-center w-6xl mb-24 mt-24">
-            <h2 className="w-full pr-0 text-6xl font-bold text-pink-800">
-            CONTACT US
-            </h2>
-            <div className="w-[10px] h-20 bg-orange-500 mx-6 rounded-full"></div>
-            <p className="w-2/3 text-2xl font-medium text-gray-700">
-            Got any questions? Don't hesitate to get in touch.
-            </p>
-          </div>
+              <div className="grid grid-cols-1 lg:grid-cols-[42%_80px_47%] gap-6 items-center w-full max-w-6xl">
+                {/* Title Section */}
+                <h1 className="text-4xl sm:text-6xl font-bold text-pink-800 text-center lg:text-right">
+                CONTACT US
+                </h1>
+                {/* Divider */}
+                <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-20 mx-auto rounded-full"></div>
+                {/* Content Section */}
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+                Got any questions? Don't hesitate to get in touch.
+                </p>
+              </div>
+          
             {!emailSent ? (
               <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center w-full max-w-lg mx-auto p-6">
               <input
@@ -94,19 +98,20 @@ const ContactUs = () => {
         </div>
         <div className="container sm:px-0 px-8 py-24 mx-auto">
         <div className="container mx-auto flex items-center justify-center pt-2">
-            <div className="grid grid-cols-1 lg:grid-cols-[40%_64px_40%] gap-6 items-center w-full max-w-6xl mb-12">
-              {/* Title Section */}
-              <h1 className="text-4xl font-bold text-pink-800 text-right">DISCLAIMER</h1>
-
-              {/* Divider */}
-              <div className="bg-orange-500 w-[6px] h-32 mx-auto rounded-full"></div>
-
-              {/* Content Section */}
-              <p className="text-lg text-gray-700 leading-relaxed">
-              AstraX Capital  is not seeking any outside investors. If you represent a project and are interested in discussing 
+         
+          <div className="grid grid-cols-1 lg:grid-cols-[42%_80px_47%] gap-6 items-center w-full max-w-6xl">
+                {/* Title Section */}
+                <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-center lg:text-right">
+                Disclaimer
+                </h1>
+                {/* Divider */}
+                <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-20 mx-auto rounded-full"></div>
+                {/* Content Section */}
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+                AstraX Capital  is not seeking any outside investors. If you represent a project and are interested in discussing 
                   a potential investment with our team, please feel free to reach out.
-              </p>
-            </div>
+                </p>
+              </div>
             <div
             className="absolute bottom-0 left-0 w-full h-48 bg-no-repeat bg-cover"
             style={{ backgroundImage: "url('/backgrounds/BG5.png')" }}
