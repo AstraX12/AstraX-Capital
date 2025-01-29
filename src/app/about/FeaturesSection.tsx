@@ -1,55 +1,113 @@
-import React from 'react';
+import React from "react";
 import Image from 'next/image';
 
-const Feature = ({ src, alt, title, description }: { src: string, alt: string, title: string, description: string }) => (
-  <div className="flex sm:pl-0 pl-0 sm:pr-0 pr-0 sm:py-12 py-0 md:items-start items-center text-center justify-center flex-col md:flex-row">
-    <div className="md:flex-shrink-0 md:mr-8 mb-2">
-      <Image src={src} alt={alt} width={100} height={200} />
+interface FeatureProps {
+  src: string;
+  alt: string;
+  title: string;
+  description: string;
+  bottomImageSrc?: string; // Optional prop for the image under the icon
+  bottomImageAlt?: string;
+  iconWidth?: number; // Width of the top icon
+  iconHeight?: number; // Height of the top icon
+  bottomImageWidth?: number; // Width of the bottom image
+  bottomImageHeight?: number; // Height of the bottom image
+}
+
+const Feature: React.FC<FeatureProps> = ({
+  src,
+  alt,
+  title,
+  description,
+  bottomImageSrc,
+  bottomImageAlt,
+  iconWidth = 80,
+  iconHeight = 80,
+  bottomImageWidth = 120,
+  bottomImageHeight = 40,
+}) => (
+  <div className="flex flex-col md:flex-row justify-center items-start py-8">
+    <div className="flex-shrink-0">
+      <Image
+        src={src}
+        alt={alt}
+        width={iconWidth}
+        height={iconHeight}
+        className="object-contain"
+      />
+      {bottomImageSrc && (
+        <div className="mt-4 pl-6">
+          <Image
+            src={bottomImageSrc}
+            alt={bottomImageAlt || 'Additional image'}
+            width={bottomImageWidth}
+            height={bottomImageHeight}
+            className="object-contain"
+          />
+        </div>
+      )}
     </div>
-    <div className="md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0  text-center">
-      <h1 className="title-font sm:text-2xl text-based sm:mb-2 mb-3 font-large text-gray-800 text-shadow sm:font-bold font-black">{title}</h1>
-      <p className="mb-4 leading-relaxed sm:text-xl text-sm text-gray-800 sm:font-normal font-normal">{description}</p>
+    <div className="flex flex-row items-center max-w-2xl">
+      <div className="flex flex-col md:text-left text-center">
+        <h1 className="text-4xl font-bold text-pink-800 mb-16 mt-5 ml-2">{title}</h1>
+        <p className="text-gray-800 text-lg leading-relaxed ml-2">{description}</p>
+      </div>
     </div>
   </div>
 );
 
 const FeaturesSection = () => (
-  <div className="sm:pt-20 sm:pr-0 pr-9 sm:pl-0 pl-9 flex flex-col bg-gradient-to-b from-white to-orange-200 w-full">
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-0 gap-y-0 items-start">
-      <Feature
-        src="/early stage innovation icon.png"
-        alt="logo"
-        title="Empowering Early-Stage Innovation"
-        description="At AstraX Capital, we specialize in identifying and nurturing early-stage startups with the potential to scale up and revolutionize respective industries. Our focus on private and seed rounds allows us to partner with founders at the earliest stages of their journey, providing them with the necessary resources and support to transform their ideas into thriving and sustainable businesses."
-      />
-      <Feature
-        src="/nurturing growth and expansion icon.png"
-        alt="logo"
-        title="Nurturing Growth and Expansion"
-        description="As our portfolio companies progress from microcaps to scale-ups, we continue to champion their growth and navigate them toward imminent success. We facilitate follow-on funding rounds, strategic partnerships, and market expansion opportunities by leveraging our network and expertise to help them reach their full potential. Whether it's navigating regulatory challenges, accessing new markets, or scaling operations, we're committed to providing the resources and support necessary for our portfolio companies to thrive in today's dynamic business environment."
-      />
-      <Feature
-        src="/driving innovation delivering results icon.png"
-        alt="logo"
-        title="Driving Innovation, Delivering Results"
-        description="At AstraX Capital, we pride ourselves on our proven track record of success. We excel at identifying, investing in, and supporting innovative startups that disrupt industries and drive positive change. With a keen eye for promising opportunities and a strategic approach to portfolio management, we consistently deliver impressive returns while helping our portfolio companies achieve significant milestones and growth."
-      />
-      <Feature
-        src="/continuous growth and success icon.png"
-        alt="logo"
-        title="Continuous Growth and Success"
-        description="Our consistent success with AstraX Capital is a testament to our iterative, methodical, and result-oriented approach to delivering targets. We prioritize strategic planning, ongoing optimization, and proactive management, fueling the support and guidance that our portfolio companies need to thrive in today's competitive landscape."
-      />
-    </div>
-    {/* Display this Feature on tablet screens only */}
-    <div className="col-span-2 pb-16 sm:px-28 px hidden md:block"> 
-      <Feature
-        src="/expanding horizons embracing diversity icon.png"
-        alt="logo"
-        title="Expanding Horizons, Embracing Diversity"
-        description="At AstraX Capital, our vision extends far beyond geographical borders. Our global reach positions us at the forefront of the ever-evolving landscape of innovative technology. We are dedicated to driving global impact and empowering visionary entrepreneurs to turn their ideas into reality, regardless of where they are located."
-      />
-    </div>
+  <div className="container mx-auto px-6 md:px-12 py-16">
+    <Feature
+      src="/early stage innovation icon.png"
+      alt="icon"
+      title="Empowering Early-Stage Innovation"
+      description="At AstraX Capital, we specialize in identifying and nurturing early-stage startups during private and seed rounds, partnering with founders to transform innovative ideas into industry-revolutionizing and sustainable businesses."
+      bottomImageSrc="/line.png"
+      bottomImageAlt="line"
+      iconWidth={100} // Custom size for the icon
+      iconHeight={100}
+      bottomImageWidth={50} // Custom size for the bottom image
+      bottomImageHeight={100}
+    />
+    <Feature
+      src="/nurturing growth and expansion icon.png"
+      alt="icon"
+      title="Nurturing Growth and Expansion"
+      description="As our portfolio companies evolve from microcaps to scale-ups, we champion their growth by facilitating follow-on funding, strategic partnerships, and market expansion, leveraging our network and expertise to navigate regulatory challenges, access new markets, and scale operations."
+      bottomImageSrc="/line.png"
+      bottomImageAlt="line"
+      iconWidth={90}
+      iconHeight={90}
+      bottomImageWidth={50}
+      bottomImageHeight={100}
+    />
+
+    <Feature
+      src="/driving innovation delivering results icon.png"
+      alt="icon"
+      title="Driving Innovation, Delivering Results"
+      description="At AstraX Capital, we leverage our proven track record to identify, invest in, and support disruptive startups, driving positive change and delivering impressive returns through strategic portfolio management."
+      bottomImageSrc="/line.png"
+      bottomImageAlt="line"
+      iconWidth={90}
+      iconHeight={90}
+      bottomImageWidth={50}
+      bottomImageHeight={100}
+    />
+    
+    <Feature
+      src="/continuous growth and success icon.png"
+      alt="icon"
+      title="Continuous Growth and Success"
+      description="Our success at AstraX Capital reflects our methodical, result-oriented strategy that emphasizes strategic planning, ongoing optimization, and proactive management to support our portfolio companies' growth in a competitive landscape."
+      bottomImageSrc="/line.png"
+      bottomImageAlt="line"
+      iconWidth={90}
+      iconHeight={90}
+      bottomImageWidth={50}
+      bottomImageHeight={100}
+    />
   </div>
 );
 

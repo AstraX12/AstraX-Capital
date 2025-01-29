@@ -35,55 +35,54 @@ const ContactUs = () => {
     <>
       <section
         id="contact_us"
-        className="min-h-screen flex flex-col items-center justify-center w-full"
+        className="min-h-screen flex flex-col items-center justify-center w-full bg-cover bg-center" 
       >
-        <div className="flex pl-16 pr-16 py-24 mt-6 items-center text-center flex-col md:flex-row bg-white">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
-            <Image
-              src="/Contact Us Graphic.png"
-              alt="logo"
-              width={500}
-              height={400}
-            />
-          </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 sm:pt-0 pt-12 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-            <h1 className="title-font sm:text-2xl text-xl mb-6 font-large text-pink-800 text-shadow font-bold">
-              CONTACT US
-            </h1>
-            <p className="mb-8 leading-relaxed sm:text-4xl text-2xl text-gray-800 font-bold">
-              Got any questions? Don't hesitate to get in touch.
-            </p>
+
+        <div 
+            className="flex pl-0 pr-0 py-0 mt-6 items-center text-center flex-col md:flex-row " >
+          <div className="lg:flex-grow md:w-full sm:pt-0 pt-12 flex flex-col md:items-center md:text-center mb-16 md:mb-0 items-center text-center ">
+              <div className="grid grid-cols-1 lg:grid-cols-[42%_80px_47%] gap-6 items-center w-full max-w-6xl">
+                {/* Title Section */}
+                <h1 className="text-4xl sm:text-6xl font-bold text-pink-800 text-center lg:text-right">
+                CONTACT US
+                </h1>
+                {/* Divider */}
+                <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-20 mx-auto rounded-full"></div>
+                {/* Content Section */}
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+                Got any questions? Don't hesitate to get in touch.
+                </p>
+              </div>
+          
             {!emailSent ? (
-              <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center">
-                <div className="flex flex-wrap justify-between w-full mb-4">
-                  <input
-                    type="text"
-                    name="user_name"
-                    placeholder="Name"
-                    className="w-full px-4 py-2 mb-4 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
-                    required
-                  />
-                  <input
-                    type="email"
-                    name="user_email"
-                    placeholder="Email"
-                    className="w-full px-4 py-2 mb-2 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
-                    required
-                  />
-                </div>
-                <textarea
-                  name="message"
-                  placeholder="Your Message"
-                  className="w-full px-4 pt-3 pb-8  mb-4 placeholder-gray-500 text-gray-700 bg-pink-200 rounded text-base shadow outline-none focus:outline-none focus:shadow-outline"
-                  required
-                ></textarea>
-                <button
-                  type="submit"
-                  className="inline-flex text-white py-2 px-8 bg-gradient-to-br from-pink-800 to-orange-600 border-2 border-none focus:outline-none hover:bg-gray-300 rounded text-lg font-sans"
-                >
-                  SEND MESSAGE
-                </button>
-              </form>
+              <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center w-full max-w-lg mx-auto p-6">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name"
+                className="w-full px-4 py-3 mb-4 placeholder-gray-500 text-gray-700 bg-white border border-pink-400 rounded-lg shadow-sm outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
+                required
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                className="w-full px-4 py-3 mb-4 placeholder-gray-500 text-gray-700 bg-white border border-pink-400 rounded-lg shadow-sm outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                className="w-full px-4 py-3 h-32 mb-4 placeholder-gray-500 text-gray-700 bg-white border border-pink-400 rounded-lg shadow-sm outline-none focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
+                required
+              ></textarea>
+              <button
+                type="submit"
+                className="w-full py-3 text-white bg-gradient-to-r from-pink-800 to-orange-600 rounded-full shadow-lg text-lg font-semibold transition-transform transform hover:scale-105"
+              >
+                Send Message
+              </button>
+            </form>
             ) : (
               <div>
                 <p>Thank you for your message!</p>
@@ -97,15 +96,29 @@ const ContactUs = () => {
             )}
           </div>
         </div>
-        <div className="flex flex-col sm:pt-16 pt-0 sm:pb-2 pb-0 text-center ">
-          <h1 className="sm:text-2xl text-based sm:mb-0 mb-5 font-large text-pink-900 text-shadow font-bold">
-                 DISCLAIMER
-          </h1>
-          <div className="container lg:px-40  md:px-8 sm:px-8 py-8 mx-auto">
-          <p className=" md:px-3 px-5 pb-5 leading-relaxed sm:text-xl text-sm text-gray-500 font-medium mb-5">
-          AstraX Capital  is not seeking any outside investors. If you represent a project and are interested in discussing 
-          a potential investment with our team, please feel free to reach out.</p></div>
-      </div>
+        <div className="container sm:px-0 px-8 py-24 mx-auto">
+        <div className="container mx-auto flex items-center justify-center pt-2">
+         
+          <div className="grid grid-cols-1 lg:grid-cols-[42%_80px_47%] gap-6 items-center w-full max-w-6xl">
+                {/* Title Section */}
+                <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-center lg:text-right">
+                Disclaimer
+                </h1>
+                {/* Divider */}
+                <div className="bg-orange-500 h-[3px] w-12 sm:w-[6px] sm:h-20 mx-auto rounded-full"></div>
+                {/* Content Section */}
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-left">
+                AstraX Capital  is not seeking any outside investors. If you represent a project and are interested in discussing 
+                  a potential investment with our team, please feel free to reach out.
+                </p>
+              </div>
+            <div
+            className="absolute bottom-0 left-0 w-full h-48 bg-no-repeat bg-cover"
+            style={{ backgroundImage: "url('/backgrounds/BG5.png')" }}
+          ></div>
+          </div>
+      
+        </div>
       </section>
     </>
   );

@@ -7,7 +7,7 @@ const Footer = () => {
       <footer id="footer">
     
         
-      <div className="bg-gradient-to-b from-white to-orange-200">
+      <div className="bg-zinc-900">
       <div className="container pt-14 pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
             <div className="md:w-96 w-full px-4">
@@ -22,7 +22,7 @@ const Footer = () => {
               <div className="flex justify-center lg:ml-auto lg:mt-0 mt-6 w-full  md:w-auto">
                   
                   <a
-                    className=" text-pink-800 px-4 py-4"
+                    className=" text-white px-4 py-4"
                     href="https://www.facebook.com/AstraXCapital"
                     target="_blank"
                   >
@@ -40,7 +40,7 @@ const Footer = () => {
                 
               
                   <a
-                    className=" text-pink-800 px-4 py-4"
+                    className=" text-white px-4 py-4"
                     href="https://twitter.com/Astraxcapital"
                     target="_blank"
                   >
@@ -58,7 +58,7 @@ const Footer = () => {
             
               
                   <a
-                    className=" text-pink-800 px-4 py-4"
+                    className=" text-white px-4 py-4"
                     href="mailto:astraxinvestment@gmail.com"
                   >
                     <svg
@@ -75,16 +75,34 @@ const Footer = () => {
                   <a href="mailto:astraxinvestment@gmail.com"></a>
                 
               </div>
+              <div className="flex gap-8 justify-center">
+                <a href="#" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                  HOME
+                </a>
+                <a href="#about_us" className=" my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                  ABOUT US
+                </a>
+                <a href="#portfolio" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                  PORTFOLIO
+                </a>
+                <a href="#team" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                  TEAM
+                </a>
+                <a href="#contact_us" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                  CONTACT US
+                </a>
+              </div>
+
               <div className="flex justify-evenly">
                 <a
                 href="privacy-policy" target="_blank"
-                className="pr-6 lg:w-full text-based text-pink-800 w-full sm:w-auto"
+                className="pr-6 lg:w-full text-based text-white w-full sm:w-auto"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="terms-and-conditions" target="_blank"
-                  className="lg:w-full text-based text-pink-800 w-full sm:w-auto"
+                  className="lg:w-full text-based text-white w-full sm:w-auto"
                   >
                   Terms and Conditions
                 </a>
@@ -93,7 +111,7 @@ const Footer = () => {
               
             </div>
             <div className="w-full flex justify-center md:justify-center lg:justify-center">
-            <p className="text-base text-gray-500">
+            <p className="text-base text-white">
               Copyright © 2024 All rights reserved
             </p>
           </div>
