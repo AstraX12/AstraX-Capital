@@ -8,7 +8,6 @@ const Home = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="flex items-center justify-center flex-col md:flex-row text-center min-h-screen sm:pl-16 pl-1 sm:pr-16 pr-1 mt-6">
