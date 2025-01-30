@@ -75,24 +75,23 @@ const Footer = () => {
                   <a href="mailto:astraxinvestment@gmail.com"></a>
                 
               </div>
-              <div className="flex gap-8 justify-center">
-                <a href="#" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+              <div className="flex flex-col md:flex-row gap-4 md:gap-8 justify-center items-center text-center py-7 sm:py-0">
+                <a href="#" className="text-white font-medium text-base transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500">
                   HOME
                 </a>
-                <a href="#about_us" className=" my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                <a href="#about_us" className="text-white font-medium text-base transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500">
                   ABOUT US
                 </a>
-                <a href="#portfolio" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                <a href="#portfolio" className="text-white font-medium text-base transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500">
                   PORTFOLIO
                 </a>
-                <a href="#team" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                <a href="#team" className="text-white font-medium text-base transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500">
                   TEAM
                 </a>
-                <a href="#contact_us" className="my-2 text-white font-medium text-based transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500 whitespace-nowrap">
+                <a href="#contact_us" className="text-white font-medium text-base transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-pink-500">
                   CONTACT US
                 </a>
               </div>
-
               <div className="flex justify-evenly">
                 <a
                 href="privacy-policy" target="_blank"
