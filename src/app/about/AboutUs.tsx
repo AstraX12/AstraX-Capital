@@ -33,7 +33,7 @@ const features: Feature[] = [
 const AboutUs: React.FC = () => {
   return (
     <section id="about_us" className="text-gray-700 body-font min-h-screen w-screen">
-      <div className="container mx-auto flex items-center justify-center pt-10 lg:pt-40 px-4">
+      <div className="container mx-auto flex items-center justify-center pt-20 lg:pt-32 px-4">
         <div className="grid grid-cols-1 lg:grid-row gap-6 items-center w-full">
           {/* Title Section */}
           <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-center lg:text-center">
@@ -41,7 +41,7 @@ const AboutUs: React.FC = () => {
           </h1>
 
           {/* Content Section */}
-          <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-justify px-40 pb-20">
+          <p className="text-base sm:text-lg text-gray-700 leading-relaxed text-center lg:text-justify sm:px-40 px-0 pb-20 sm:pb-0">
               At AstraX Capital, we fuel the future by investing in visionary entrepreneurs 
               pioneering transformative technologies—from blockchain and AI to Web3 
               ecosystems. Our mission is to turn bold ideas into market-defining ventures 
@@ -57,57 +57,71 @@ const AboutUs: React.FC = () => {
      {/* <FeaturesSection /> */}
       <DropdownFeature />
 
-      {/* Features Card */}
-      <div
-        className="flex flex-col items-center py-20"
-        style={{
-          backgroundImage: "url('/backgrounds/BG2Full.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          width: "100%",
-          height: "100vh",
-        }}>
-        <div className="flex justify-center mb-9 text-center mx-6 sm:my-0 my-0">
-          <h1 className="pt-4 title-font text-4xl sm:text-5xl font-large text-pink-800 text-shadow font-bold pb-16">
-            What can we offer?
-          </h1>
-        </div>
-        {features.map((feature, index) => (
-          <FeatureCard key={index} title={feature.title} description={feature.description} subtitle={feature.subtitle} />
-        ))}
-      </div>
-
-      <div className="flex flex-col items-center justify-center my-[420px] sm:my-0 bg-full bg-cover"
-       style={{
-        backgroundImage: "url('/backgrounds/.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        width: "100%",
-        height: "100vh",
-      }}
-      >
-        <div className="flex flex-col justify-center mb-9 text-center mx-6 sm:my-90 my-0">
-          <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-shadow pb-3">Our Focus Areas</h1>
-          <h2 className="text-xl font-bold italic text-pink-800 text-shadow">We back innovators building the pillars of Web3 and beyond:</h2>
-        </div>
-        {[
-          { title: "Layer 1 & 2 Infrastructure", desc: "Scalable blockchain protocols and interoperability solutions" },
-          { title: "GameFi", desc: "Next-gen gaming economies powered by decentralized finance" },
-          { title: "DeFi", desc: "Reinventing financial systems through trustless architectures" },
-          { title: "Metaverse & NFTs", desc: "Digital ownership, immersive experiences, and creator economies" },
-          { title: "AI-Driven Innovation", desc: "Machine learning models enhancing blockchain efficiency and user adoption" }
-        ].map(({ title, desc }, index) => (
-          <div key={index} className="grid grid-cols-1 lg:grid-row items-center w-full max-w-xl p-2 pb-12 sm:pb-5">
-          <div className="border border-yellow-600 rounded-3xl">
-            <h3 className="text-2xl sm:text-4xl font-semibold text-pink-800 text-center sm:text-center pt-4">{title}</h3>
-            <p className="text-lg text-gray-700 leading-relaxed text-center sm:text-center pb-3 px-4">{desc}</p>
-            </div>
+        {/* Features Card */}
+        <div
+          className="flex flex-col items-center py-20"
+          style={{
+            backgroundImage: "url('/backgrounds/BG2Full.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            width: "100%",
+            minHeight: "100vh",  // Changed from height: 100vh
+          }}
+        >
+          <div className="flex justify-center mb-9 text-center mx-6 relative z-10">
+            <h1 className="pt-4 title-font text-4xl sm:text-5xl font-large text-pink-800 text-shadow font-bold pb-0 sm:pb-16">
+              What can we offer?
+            </h1>
           </div>
-        ))}
+          {features.map((feature, index) => (
+            <FeatureCard key={index} title={feature.title} description={feature.description} subtitle={feature.subtitle} />
+          ))}
+        </div>
 
-      </div>
+
+        {/* Our Focus Areas Section */}
+        <div className="flex flex-col items-center justify-center  bg-full bg-cover"
+            style={{
+              backgroundImage: "url('/backgrounds/.png')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              minHeight: "80vh", 
+            }}
+        >
+          <div className="flex flex-col justify-center mb-9 text-center mx-6 relative z-10">
+            <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-shadow pb-3">
+              Our Focus Areas
+            </h1>
+            <h2 className="text-xl font-bold italic text-pink-800 text-shadow">
+              We back innovators building the pillars of Web3 and beyond:
+            </h2>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4 px-4 w-full max-w-7xl"> {/* Container for boxes in one row */}
+              {[
+                { title: "Layer 1 & 2 Infrastructure", desc: "Scalable blockchain protocols and interoperability solutions" },
+                { title: "GameFi", desc: "Next-gen gaming economies powered by decentralized finance" },
+                { title: "DeFi", desc: "Reinventing financial systems through trustless architectures" },
+                { title: "Metaverse & NFTs", desc: "Digital ownership, immersive experiences, and creator economies" },
+                { title: "AI-Driven Innovation", desc: "Machine learning models enhancing blockchain efficiency and user adoption" }
+              ].map(({ title, desc }, index) => (
+                <div key={index} className="border border-yellow-600 rounded-3xl p-4 w-64 sm:w-80">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-pink-800 text-center pt-4">
+                      {title}
+                    </h3>
+                    <p className="text-lg text-gray-700 leading-relaxed text-center pb-3 px-4">
+                    {desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+        </div>
+
+
         
         {/* */}
         <div className="flex flex-col items-center justify-center my-0 py-20 pb-0 bg-purple-500 ">

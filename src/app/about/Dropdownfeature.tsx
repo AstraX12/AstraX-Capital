@@ -48,7 +48,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-0 sm:p-6 pt-20 pb-40">
+    <div className="max-w-5xl mx-auto p-0 sm:p-6 pt-0 sm:pt-20 pb-0 sm:pb-10">
       <div className="space-y-0 sm:space-y-4 mb-24">
         {faqs.map((faq, index) => (
           <div
