@@ -107,7 +107,7 @@ const AboutUs: React.FC = () => {
             <div className="flex flex-wrap justify-center gap-4 px-4 w-full max-w-7xl">
               {[
                 { title: "Layer 1 & 2 Infrastructure", desc: "Scalable blockchain protocols and interoperability solutions", img: "/Focus_Layer.png" },
-                { title: "GameFi", desc: "Next-gen gaming economies powered by decentralized finance", img: "/Focus_GameFi.png" },
+                { title: "GameFi", desc: "Next-gen gaming economies powered by decentralized finance", img: "/Focus_Gamefi.png" },
                 { title: "DeFi", desc: "Reinventing financial systems through trustless architectures", img: "/Focus_Defi.png" },
                 { title: "Metaverse & NFTs", desc: "Digital ownership, immersive experiences, and creator economies", img: "/Focus_Meta.png" },
                 { title: "AI-Driven Innovation", desc: "Machine learning models enhancing blockchain efficiency and user adoption", img: "/Focus_AI.png" }
