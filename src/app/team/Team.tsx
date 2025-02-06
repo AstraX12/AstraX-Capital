@@ -43,7 +43,7 @@ const Team = () => {
   return (
     <section id="team" className="min-h-screen w-full">
     <div
-      className="bg-cover bg-center bg-no-repeat min-h-screen w-full flex flex-col items-center"
+      className="bg-cover bg-center bg-no-repeat min-h-screen w-full flex flex-col items-center py-10 sm:py-40"
       style={{ backgroundImage: "url('/backgrounds/BG4.png')" }}
     >
       {/* Header */}

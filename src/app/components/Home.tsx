@@ -4,7 +4,7 @@ const Home = () => {
       id="home"
       className="h-screen flex flex-col items-center justify-center w-full"
       style={{
-        backgroundImage: "url('/backgrounds/BG1.png')",
+        backgroundImage: "url('/backgrounds/BG_1Top.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

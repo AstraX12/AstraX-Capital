@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="bg-zinc-900">
       <div className="container pt-14 pb-10 mx-auto ">
           <div className="flex flex-wrap items-center justify-center text-center "> 
-            <div className="md:w-96 w-full px-4">
+            <div className="md:w-full w-full px-4">
               <a href="/" className="flex justify-center w-full  md:w-auto mb-5"> 
                 <Image
                   src="/AstraXLogo_768x768.png"
@@ -95,13 +95,13 @@ const Footer = () => {
               <div className="flex justify-evenly">
                 <a
                 href="privacy-policy" target="_blank"
-                className="pr-6 lg:w-full text-based text-white w-full sm:w-auto"
+                className="pr-6 lg:w-full text-based text-white w-full sm:w-auto pl-0 sm:pl-[30rem]"
                 >
                   Privacy Policy
                 </a>
                 <a
                   href="terms-and-conditions" target="_blank"
-                  className="lg:w-full text-based text-white w-full sm:w-auto"
+                  className="lg:w-full text-based text-white w-full sm:w-auto pr-0 sm:pr-[30rem]"
                   >
                   Terms and Conditions
                 </a>
