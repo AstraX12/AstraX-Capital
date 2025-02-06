@@ -7,15 +7,16 @@ const Portfolio = () => {
     <section
           id="portfolio"
           className="flex flex-col items-center justify-center bg-white w-full relative"
+          style={{ backgroundImage: "url('/backgrounds/BG_5Portfolio.png')"}}
           >
           {/* Top Background */}
-          <div
+          {/* <div
             className="absolute top-0 left-0 w-full h-96 bg-no-repeat bg-cover"
             style={{ backgroundImage: "url('/backgrounds/BG3Top.png')" }}
-          ></div>
+          ></div> */}
 
           {/* Portfolio Content */}
-          <div className="relative z-10 flex flex-col sm:pt-96 pt-96 sm:pb-2 pb-0 text-center">
+          <div className="relative z-10 flex flex-col sm:pt-40 pt-40 sm:pb-2 pb-0 text-center">
             <h1 className="sm:text-6xl text-6xl sm:mb-0 mb-0 font-large text-pink-800 text-shadow font-bold">
               PORTFOLIO
             </h1>
@@ -55,7 +56,7 @@ const Portfolio = () => {
               </div>
           </div>
         
-         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-2/3 w-96 mb-80">
+         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-2/3 w-96 mb-40 px-10 sm:px-0">
           <a href="https://xai.games/" target="_blank" className="">  
             <Image src="/portfolio_logos/XAI.png" width={0}
                 height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/></a>
@@ -76,10 +77,10 @@ const Portfolio = () => {
             <Image src="/portfolio_logos/carv.png"  width={0}
                   height={0}  sizes="100vw" alt="CARV Logo" className="w-full h-auto"/></a>
           </div>
-          <div
+          {/* <div
             className="absolute bottom-0 left-0 w-full h-80 bg-no-repeat bg-cover"
             style={{ backgroundImage: "url('/backgrounds/BG3Bottom.png')" }}
-          ></div>
+          ></div> */}
     </section>
     
 
