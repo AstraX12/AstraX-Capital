@@ -22,7 +22,7 @@ const Portfolio = () => {
             </h1>
           </div>
 
-          <div className="flex items-center justify-center w-full max-w-3xl mb-36 mt-32">
+          <div className="flex items-center justify-center w-full max-w-3xl mb-20 mt-32">
               <div className="grid grid-cols-1 lg:grid-cols-[25%_64px_65%] gap-6 items-center w-full max-w-6xl">
                 {/* Title Section */}
                 <h1 className="text-2xl sm:text-3xl font-bold text-pink-800 text-center lg:text-right">
@@ -41,7 +41,7 @@ const Portfolio = () => {
           {/* Logos */}
           <Logos />
 
-          <div className="flex items-center justify-center w-full max-w-3xl mb-36 mt-32">
+          <div className="flex items-center justify-center w-full max-w-3xl mb-20 mt-32">
               <div className="grid grid-cols-1 lg:grid-cols-[25%_64px_65%] gap-6 items-center w-full max-w-6xl">
                 {/* Title Section */}
                 <h1 className="text-2xl sm:text-3xl font-bold text-pink-800 text-center lg:text-right">
@@ -56,7 +56,7 @@ const Portfolio = () => {
               </div>
           </div>
         
-         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 items-center sm:w-2/3 w-96 mb-40 px-10 sm:px-0">
+         <div className="grid grid-cols-2 md:grid-cols-6 gap-4 items-center sm:w-3/4 w-96 mb-40 px-10 sm:px-0">
           <a href="https://xai.games/" target="_blank" className="">  
             <Image src="/portfolio_logos/XAI.png" width={0}
                 height={0} sizes="150vw" alt="Xai Logo" className="w-full h-auto"/></a>
@@ -73,8 +73,12 @@ const Portfolio = () => {
             <Image src="/portfolio_logos/Sophon.png"  width={0}
                   height={0}  sizes="100vw" alt="Sophon Logo" className="w-full h-auto"/></a>
 
-        <a href="https://carv.io" target="_blank" className="">         
+          <a href="https://carv.io" target="_blank" className="">         
             <Image src="/portfolio_logos/carv.png"  width={0}
+                  height={0}  sizes="100vw" alt="CARV Logo" className="w-full h-auto"/></a>
+                  
+          <a href="https://0g.ai/" target="_blank" className="">         
+            <Image src="/portfolio_logos/OG.png"  width={0}
                   height={0}  sizes="100vw" alt="CARV Logo" className="w-full h-auto"/></a>
           </div>
           {/* <div
