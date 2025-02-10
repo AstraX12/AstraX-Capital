@@ -95,7 +95,7 @@ const AboutUs: React.FC = () => {
               minHeight: "80vh", 
             }}
         >
-          <div className="flex flex-col justify-center mb-9 text-center mx-6 relative ">
+          <div className="flex flex-col justify-center mb-9 pt-0 sm:pt-32 text-center mx-6 relative ">
             <h1 className="text-4xl sm:text-5xl font-bold text-pink-800 text-shadow pb-3">
               Our Focus Areas
             </h1>
