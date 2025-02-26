@@ -68,9 +68,9 @@ const AboutUs: React.FC = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-4 w-full max-w-5xl mx-auto place-items-center">
               {[
-                { title: "Incubate Your Vision", subtitle:"For Web3 Pioneers" , img: "Icon_Incubate.png", desc: "Turn your concept into a market-ready solution with our end-to-end incubation program. From tokenomics design to tech stack development, we provide the tools, capital, and mentorship to launch with impact." },
+                { title: "Incubate Your Vision", subtitle:"For Web3 Pioneers" , img: "Icon_Incubate1.png", desc: "Turn your concept into a market-ready solution with our end-to-end incubation program. From tokenomics design to tech stack development, we provide the tools, capital, and mentorship to launch with impact." },
                 { title: "Strategic Advisory", subtitle:"Beyond Capital", img: "/Icon_Strategic.png", desc: "Access C-suite level guidance across go-to-market strategy, regulatory compliance, and ecosystem building. Our advisory network includes industry leaders in blockchain, AI, and decentralized technologies." },
-                { title: "Empower Through Education", subtitle:"Master the Web3 Landscape", img: "/Icon_Empower.png", desc: "For founders, investors, and builders: Dive into curated workshops, market intelligence reports, and technical deep-dives designed to demystify decentralized ecosystems and digital assets." }
+                { title: "Empower Through Education", subtitle:"Master the Web3 Landscape", img: "/Icon_Empower1.png", desc: "For founders, investors, and builders: Dive into curated workshops, market intelligence reports, and technical deep-dives designed to demystify decentralized ecosystems and digital assets." }
               ].map(({ title, desc, img, subtitle }, index) => (
                 <div 
                   key={index} 
@@ -107,7 +107,7 @@ const AboutUs: React.FC = () => {
             <div className="flex flex-wrap justify-center gap-4 px-4 w-full max-w-7xl">
               {[
                 { title: "Layer 1 & 2 Infrastructure", desc: "Scalable blockchain protocols and interoperability solutions", img: "/Focus_Layer.png" },
-                { title: "GameFi", desc: "Next-gen gaming economies powered by decentralized finance", img: "/Focus_Gamefi.png" },
+                { title: "GameFi", desc: "Next-gen gaming economies powered by decentralized finance", img: "/Focus_Gamefi1.png" },
                 { title: "DeFi", desc: "Reinventing financial systems through trustless architectures", img: "/Focus_Defi.png" },
                 { title: "Metaverse & NFTs", desc: "Digital ownership, immersive experiences, and creator economies", img: "/Focus_Meta.png" },
                 { title: "AI-Driven Innovation", desc: "Machine learning models enhancing blockchain efficiency and user adoption", img: "/Focus_AI.png" }
